@@ -92,7 +92,8 @@ const struct Evolution gEvolutionTable[NUM_SPECIES][EVOS_PER_MON] =
 #endif
     [SPECIES_CHANSEY]               = {{EVO_FRIENDSHIP, 0, SPECIES_BLISSEY}},
 #if P_GEN_4_POKEMON == TRUE
-    [SPECIES_TANGELA]               = {{EVO_MOVE, MOVE_ANCIENT_POWER, SPECIES_TANGROWTH}},
+    [SPECIES_TANGELA]               = {{EVO_MOVE, MOVE_ANCIENT_POWER, SPECIES_TANGROWTH},
+									   {EVO_ITEM, ITEM_PRIME_STONE, SPECIES_JUNGELA}}, // Fakemon
 #endif
     [SPECIES_HORSEA]                = {{EVO_LEVEL, 32, SPECIES_SEADRA}},
     [SPECIES_SEADRA]                = {{EVO_TRADE_ITEM, ITEM_DRAGON_SCALE, SPECIES_KINGDRA},
@@ -535,6 +536,15 @@ const struct Evolution gEvolutionTable[NUM_SPECIES][EVOS_PER_MON] =
                                        {EVO_ITEM, ITEM_SCROLL_OF_DARKNESS, SPECIES_URSHIFU},
                                        {EVO_WATER_SCROLL, 0, SPECIES_URSHIFU_RAPID_STRIKE_STYLE},
                                        {EVO_ITEM, ITEM_SCROLL_OF_WATERS, SPECIES_URSHIFU_RAPID_STRIKE_STYLE}},
+									   
+// Fakemon
+									 
+	[SPECIES_BURGELA]               = {{EVO_LEVEL, 15, SPECIES_TANGELA}},
+	
+	[SPECIES_MARILLUGMA]            = {{EVO_LEVEL, 18, SPECIES_AZUMARGO}},
+									   
+// End Fakemon
+									   
 #endif
     [SPECIES_RATTATA_ALOLAN]        = {{EVO_LEVEL_NIGHT, 20, SPECIES_RATICATE_ALOLAN}},
     [SPECIES_SANDSHREW_ALOLAN]      = {{EVO_ITEM, ITEM_ICE_STONE, SPECIES_SANDSLASH_ALOLAN}},

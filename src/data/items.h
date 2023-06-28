@@ -10350,4 +10350,32 @@ const struct Item gItems[] =
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
         .flingPower = 10,
     },
+	
+	// Fake Items
+	
+	[ITEM_NIHON_INCENSE] =
+	{
+		.name = _("Nihon Incnse"),
+		.itemId = ITEM_NIHON_INCENSE,
+		.price = 2000,
+		.holdEffect = HOLD_EFFECT_PREVENT_EVOLVE,
+		.description = sNihonIncenseDesc,
+		.pocket = POCKET_ITEMS,
+		.type = ITEM_USE_BAG_MENU,
+		.fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+		.flingPower = 10,
+	},
+	
+	[ITEM_PRIME_STONE] =
+	{
+		.name = _("Prime Stone"),
+		.itemId = ITEM_PRIME_STONE,
+		.price = 3000,
+		.description = sPrimeStoneDesc,
+		.pocket = POCKET_ITEMS,
+		.type = ITEM_USE_PARTY_MENU,
+		.fieldUseFunc = ItemUseOutOfBattle_EvolutionStone,
+		.flingPower = 30,
+	},
+	
 };

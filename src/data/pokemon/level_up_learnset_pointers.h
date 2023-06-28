@@ -916,6 +916,12 @@ const struct LevelUpMove *const gLevelUpLearnsets[NUM_SPECIES] =
     [SPECIES_OVERQWIL] = sOverqwilLevelUpLearnset,
     [SPECIES_ENAMORUS] = sEnamorusLevelUpLearnset,
 #endif
+	// Fakemon
+	[SPECIES_BURGELA] = sBurgelaLevelUpLearnset,
+	[SPECIES_JUNGELA] = sJungelaLevelUpLearnset,
+	[SPECIES_MARILLUGMA] = sMarillugmaLevelUpLearnset,
+	[SPECIES_AZUMARGO] = sAzumargoLevelUpLearnset,
+	[SPECIES_PHANCERO] = sPhanceroLevelUpLearnset,
     // Megas
     [SPECIES_VENUSAUR_MEGA] = sVenusaurLevelUpLearnset,
     [SPECIES_CHARIZARD_MEGA_X] = sCharizardLevelUpLearnset,

@@ -4015,6 +4015,26 @@ Cry_Overqwil::
 Cry_Enamorus::
 	.incbin "sound/direct_sound_samples/cries/enamorus.bin"
 
+	.align 2
+Cry_Burgela::
+	.incbin "sound/direct_sound_samples/cries/burgela.bin"
+	
+	.align 2
+Cry_Jungela::
+	.incbin "sound/direct_sound_samples/cries/jungela.bin"
+
+	.align 2
+Cry_Marillugma::
+	.incbin "sound/direct_sound_samples/cries/marillugma.bin"
+	
+	.align 2
+Cry_Azumargo::
+	.incbin "sound/direct_sound_samples/cries/azumargo.bin"
+	
+	.align 2
+Cry_Phancero::
+	.incbin "sound/direct_sound_samples/cries/phancero.bin"
+
 .endif
 
 	.align 2

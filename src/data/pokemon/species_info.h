@@ -21047,6 +21047,121 @@ const struct SpeciesInfo gSpeciesInfo[] =
     },
 #endif
 
+// Fakemon
+	
+	[SPECIES_BURGELA] =
+	{
+		.baseHP        = 40,
+		.baseAttack    = 40,
+		.baseDefense   = 70,
+		.baseSpeed     = 40,
+		.baseSpAttack  = 70,
+		.baseSpDefense = 45,
+		.types = { TYPE_GRASS, TYPE_GRASS },
+		.catchRate = 140,
+		.expYield = 85,
+		.evYield_Defense   = 1,
+		.genderRatio = PERCENT_FEMALE(50),
+		.eggCycles = 20,
+		.friendship = 70,
+		.growthRate = GROWTH_MEDIUM_FAST,
+		.eggGroups = { EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED},
+		.abilities = {ABILITY_CHLOROPHYLL, ABILITY_LEAF_GUARD, ABILITY_REGENERATOR},
+		.bodyColor = BODY_COLOR_BLUE,
+		.noFlip = FALSE,
+	},
+	
+	[SPECIES_JUNGELA] =
+	{
+		.baseHP        = 90,
+		.baseAttack    = 85,
+		.baseDefense   = 125,
+		.baseSpeed     = 75,
+		.baseSpAttack  = 100,
+		.baseSpDefense = 60,
+		.types = { TYPE_GRASS, TYPE_GRASS },
+		.catchRate = 30,
+		.expYield = 211,
+		.evYield_Defense   = 2,
+		.genderRatio = PERCENT_FEMALE(50),
+		.eggCycles = 20,
+		.friendship = 70,
+		.growthRate = GROWTH_MEDIUM_FAST,
+		.eggGroups = { EGG_GROUP_GRASS, EGG_GROUP_GRASS},
+		.abilities = {ABILITY_CHLOROPHYLL, ABILITY_LEAF_GUARD, ABILITY_REGENERATOR},
+		.bodyColor = BODY_COLOR_BLUE,
+		.noFlip = FALSE,
+	},
+	
+	[SPECIES_MARILLUGMA] =
+	{
+		.baseHP        = 55,
+		.baseAttack    = 30,
+		.baseDefense   = 45,
+		.baseSpeed     = 30,
+		.baseSpAttack  = 45,
+		.baseSpDefense = 45,
+		.types = { TYPE_WATER, TYPE_FIRE },
+		.catchRate = 190,
+		.expYield = 68,
+		.evYield_HP  = 1,
+		.evYield_SpAttack  = 1,
+		.genderRatio = PERCENT_FEMALE(50),
+		.eggCycles = 20,
+		.friendship = 70,
+		.growthRate = GROWTH_MEDIUM_FAST,
+		.eggGroups = { EGG_GROUP_WATER_1, EGG_GROUP_AMORPHOUS},
+		.abilities = {ABILITY_THICK_FAT, ABILITY_FLAME_BODY, ABILITY_SAP_SIPPER},
+		.bodyColor = BODY_COLOR_RED,
+		.noFlip = FALSE,
+	},
+	
+	[SPECIES_AZUMARGO] =
+	{
+		.baseHP        = 75,
+		.baseAttack    = 50,
+		.baseDefense   = 100,
+		.baseSpeed     = 40,
+		.baseSpAttack  = 65,
+		.baseSpDefense = 80,
+		.types = { TYPE_WATER, TYPE_FIRE },
+		.catchRate = 75,
+		.expYield = 154,
+		.evYield_HP  = 2,
+		.evYield_Defense  = 1,
+		.genderRatio = PERCENT_FEMALE(50),
+		.eggCycles = 20,
+		.friendship = 70,
+		.growthRate = GROWTH_MEDIUM_FAST,
+		.eggGroups = { EGG_GROUP_WATER_1, EGG_GROUP_AMORPHOUS},
+		.abilities = {ABILITY_THICK_FAT, ABILITY_FLAME_BODY, ABILITY_SAP_SIPPER},
+		.bodyColor = BODY_COLOR_RED,
+		.noFlip = FALSE,
+	},
+	
+	[SPECIES_PHANCERO] =
+	{
+		.baseHP        = 178,
+		.baseAttack    = 137,
+		.baseDefense   = 57,
+		.baseSpeed     = 128,
+		.baseSpAttack  = 85,
+		.baseSpDefense = 65,
+		.types = { TYPE_GHOST, TYPE_FLYING },
+		.catchRate = 3,
+		.expYield = 216,
+		.genderRatio = MON_GENDERLESS,
+		.eggCycles = 80,
+		.friendship = 0,
+		.growthRate = GROWTH_FAST,
+		.eggGroups = { EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED},
+		.abilities = {ABILITY_CACOPHONY, ABILITY_NONE, ABILITY_CONTRARY},
+		.bodyColor = BODY_COLOR_PURPLE,
+		.noFlip = FALSE,
+	},
+
+//	End Fakemon
+
     [SPECIES_VENUSAUR_MEGA] =
     {
         .baseHP        = 80,

@@ -915,6 +915,8 @@ static const struct {
     { SPECIES_SUDOWOODO,    ITEM_ROCK_INCENSE, SPECIES_BONSLY },
     { SPECIES_ROSELIA,      ITEM_ROSE_INCENSE, SPECIES_BUDEW },
     { SPECIES_MANTINE,      ITEM_WAVE_INCENSE, SPECIES_MANTYKE },
+	
+	{ SPECIES_TANGELA,      ITEM_NIHON_INCENSE, SPECIES_BURGELA }, // Fakemon
 };
 
 static void AlterEggSpeciesWithIncenseItem(u16 *species, struct DayCare *daycare)

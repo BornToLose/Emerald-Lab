@@ -916,6 +916,14 @@ const u16 *const gTeachableLearnsets[NUM_SPECIES] =
     [SPECIES_OVERQWIL] = sOverqwilTeachableLearnset,
     [SPECIES_ENAMORUS] = sEnamorusTeachableLearnset,
 #endif
+
+	// Fakemon
+	[SPECIES_BURGELA] = sBurgelaTeachableLearnset,
+	[SPECIES_JUNGELA] = sJungelaTeachableLearnset,
+	[SPECIES_MARILLUGMA] = sMarillugmaTeachableLearnset,
+	[SPECIES_AZUMARGO] = sAzumargoTeachableLearnset,
+	[SPECIES_PHANCERO] = sPhanceroTeachableLearnset,
+	
     // Megas
     [SPECIES_VENUSAUR_MEGA] = sVenusaurTeachableLearnset,
     [SPECIES_CHARIZARD_MEGA_X] = sCharizardTeachableLearnset,

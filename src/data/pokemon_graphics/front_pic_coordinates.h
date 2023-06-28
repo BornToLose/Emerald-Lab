@@ -920,6 +920,14 @@ const struct MonCoords gMonFrontPicCoords[] =
     [SPECIES_OVERQWIL]                     = { .size = MON_COORDS_SIZE(64, 64), .y_offset =  0 },
     [SPECIES_ENAMORUS]                     = { .size = MON_COORDS_SIZE(64, 64), .y_offset =  0 },
 #endif
+	// Fakemon
+	[SPECIES_BURGELA]                      = { .size = MON_COORDS_SIZE(32, 32), .y_offset = 18 },
+	[SPECIES_JUNGELA]                  	   = { .size = MON_COORDS_SIZE(64, 64), .y_offset =  2 },
+	[SPECIES_MARILLUGMA]                   = { .size = MON_COORDS_SIZE(32, 48), .y_offset = 12 },
+	[SPECIES_AZUMARGO]                     = { .size = MON_COORDS_SIZE(56, 64), .y_offset =  6 },
+	[SPECIES_PHANCERO]                     = { .size = MON_COORDS_SIZE(64, 64), .y_offset =  0 },
+	// End Fakemon
+	
     // Megas
     [SPECIES_VENUSAUR_MEGA]                = { .size = MON_COORDS_SIZE(64, 64), .y_offset =  3 },
     [SPECIES_CHARIZARD_MEGA_X]             = { .size = MON_COORDS_SIZE(64, 64), .y_offset =  0 },

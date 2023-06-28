@@ -107,6 +107,8 @@ const u8 gEasyChatWord_VitalSpirit[] = _("VITAL SPIRIT");
 const u8 gEasyChatWord_Chlorophyll[] = _("CHLOROPHYLL");
 const u8 gEasyChatWord_PurePower[] = _("PURE POWER");
 const u8 gEasyChatWord_ShieldDust[] = _("SHIELD DUST");
+//Fake abilities
+const u8 gEasyChatWord_Cacophony[] = _("CACOPHONY");
 
 const struct EasyChatWordInfo gEasyChatGroup_Status[] = {
     [EC_INDEX(EC_WORD_DARK)] =
@@ -761,6 +763,14 @@ const struct EasyChatWordInfo gEasyChatGroup_Status[] = {
     {
         .text = gEasyChatWord_ShieldDust,
         .alphabeticalOrder = 80,
+        .enabled = TRUE,
+    },
+	
+	//Fake abilities
+    [EC_INDEX(EC_WORD_CACOPHONY)] =
+    {
+        .text = gEasyChatWord_Cacophony,
+        .alphabeticalOrder = 109,
         .enabled = TRUE,
     },
 };

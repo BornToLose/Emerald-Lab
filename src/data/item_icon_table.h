@@ -844,6 +844,11 @@ const u32 *const gItemIconTable[ITEMS_COUNT + 1][2] =
     [ITEM_LINKING_CORD] = {gItemIcon_LinkingCord, gItemIconPalette_LinkingCord},
     [ITEM_PEAT_BLOCK] = {gItemIcon_PeatBlock, gItemIconPalette_PeatBlock},
     [ITEM_BERSERK_GENE] = {gItemIcon_BerserkGene, gItemIconPalette_BerserkGene},
+	
+	// Fake Items
+	[ITEM_NIHON_INCENSE] = {gItemIcon_NihonIncense, gItemIconPalette_NihonIncense},
+	[ITEM_PRIME_STONE] = {gItemIcon_PrimeStone, gItemIconPalette_PrimeStone},
+	
     // Return to field arrow
     [ITEMS_COUNT] = {gItemIcon_ReturnToFieldArrow, gItemIconPalette_ReturnToFieldArrow},
 };

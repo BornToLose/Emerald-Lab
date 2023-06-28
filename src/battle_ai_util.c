@@ -283,6 +283,8 @@ static const s8 sAiAbilityRatings[ABILITIES_COUNT] =
     [ABILITY_PERISH_BODY] = -1,
     [ABILITY_WANDERING_SPIRIT] = 2,
     [ABILITY_GORILLA_TACTICS] = 4,
+	//Fake abilities
+    [ABILITY_CACOPHONY] = 4,
 };
 
 static const u16 sEncouragedEncoreEffects[] =
@@ -3059,7 +3061,7 @@ bool32 AnyPartyMemberStatused(u8 battlerId, bool32 checkSoundproof)
 
     for (i = 0; i < PARTY_SIZE; i++)
     {
-        if (checkSoundproof && GetMonAbility(&party[i]) == ABILITY_SOUNDPROOF)
+        if (checkSoundproof && (GetMonAbility(&party[i]) == ABILITY_SOUNDPROOF || GetMonAbility(&party[i]) == ABILITY_CACOPHONY))
             continue;
 
         if (GetMonData(&party[i], MON_DATA_STATUS) != STATUS1_NONE)
@@ -3351,7 +3353,7 @@ bool32 ShouldUseWishAromatherapy(u8 battlerAtk, u8 battlerDef, u16 move)
 
             if (GetMonData(&party[i], MON_DATA_STATUS, NULL) != STATUS1_NONE)
             {
-                if (move != MOVE_HEAL_BELL || GetMonAbility(&party[i]) != ABILITY_SOUNDPROOF)
+                if (move != MOVE_HEAL_BELL || (GetMonAbility(&party[i]) != ABILITY_SOUNDPROOF && GetMonAbility(&party[i]) != ABILITY_CACOPHONY))
                     hasStatus = TRUE;
             }
         }

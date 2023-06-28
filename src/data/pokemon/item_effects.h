@@ -574,6 +574,9 @@ const u8 *const gItemEffectTable[ITEMS_COUNT] =
     [ITEM_LINKING_CORD]       = gItemEffect_EvoItem,
     [ITEM_PEAT_BLOCK]         = gItemEffect_EvoItem,
 
+	// Fake Items
+	[ITEM_PRIME_STONE]        = gItemEffect_EvoItem,
+
     // Berries
     [ITEM_CHERI_BERRY]        = gItemEffect_CheriBerry,
     [ITEM_CHESTO_BERRY]       = gItemEffect_ChestoBerry,

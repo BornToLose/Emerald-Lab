@@ -852,6 +852,11 @@ static s16 AI_CheckBadMove(u8 battlerAtk, u8 battlerDef, u16 move, s16 score)
                   && IsNonVolatileStatusMoveEffect(moveEffect))
                     RETURN_SCORE_MINUS(10);
                 break;
+			//Fake abilities
+            case ABILITY_CACOPHONY:
+                if (TestMoveFlags(move, FLAG_SOUND))
+                    RETURN_SCORE_MINUS(10);
+                break;
             } // def ability checks
 
             // target partner ability checks & not attacking partner
@@ -1530,19 +1535,23 @@ static s16 AI_CheckBadMove(u8 battlerAtk, u8 battlerDef, u16 move, s16 score)
             if (isDoubleBattle)
             {
                 if (CountUsablePartyMons(battlerAtk) == 0
-                  && AI_DATA->abilities[battlerAtk] != ABILITY_SOUNDPROOF
-                  && AI_DATA->abilities[BATTLE_PARTNER(battlerAtk)] != ABILITY_SOUNDPROOF
-                  && CountUsablePartyMons(FOE(battlerAtk)) >= 1)
-                {
-                    score -= 10; //Don't wipe your team if you're going to lose
-                }
-                else if ((!IsBattlerAlive(FOE(battlerAtk)) || AI_DATA->abilities[FOE(battlerAtk)] == ABILITY_SOUNDPROOF
-                  || gStatuses3[FOE(battlerAtk)] & STATUS3_PERISH_SONG)
-                  && (!IsBattlerAlive(BATTLE_PARTNER(FOE(battlerAtk))) || AI_DATA->abilities[BATTLE_PARTNER(FOE(battlerAtk))] == ABILITY_SOUNDPROOF
-                  || gStatuses3[BATTLE_PARTNER(FOE(battlerAtk))] & STATUS3_PERISH_SONG))
-                {
-                    score -= 10; //Both enemies are perish songed
-                }
+				  && AI_DATA->abilities[battlerAtk] != ABILITY_SOUNDPROOF
+				  && AI_DATA->abilities[BATTLE_PARTNER(battlerAtk)] != ABILITY_SOUNDPROOF
+				  && AI_DATA->abilities[battlerAtk] != ABILITY_CACOPHONY
+				  && AI_DATA->abilities[BATTLE_PARTNER(battlerAtk)] != ABILITY_CACOPHONY
+				  && CountUsablePartyMons(FOE(battlerAtk)) >= 1)
+				{
+					score -= 10; //Don't wipe your team if you're going to lose
+				}
+				else if ((!IsBattlerAlive(FOE(battlerAtk)) || AI_DATA->abilities[FOE(battlerAtk)] == ABILITY_SOUNDPROOF
+				  || AI_DATA->abilities[FOE(battlerAtk)] == ABILITY_CACOPHONY
+				  || gStatuses3[FOE(battlerAtk)] & STATUS3_PERISH_SONG)
+				  && (!IsBattlerAlive(BATTLE_PARTNER(FOE(battlerAtk))) || AI_DATA->abilities[BATTLE_PARTNER(FOE(battlerAtk))] == ABILITY_SOUNDPROOF
+				  || AI_DATA->abilities[BATTLE_PARTNER(FOE(battlerAtk))] == ABILITY_CACOPHONY
+				  || gStatuses3[BATTLE_PARTNER(FOE(battlerAtk))] & STATUS3_PERISH_SONG))
+				{
+					score -= 10; //Both enemies are perish songed
+				}
                 else if (DoesPartnerHaveSameMoveEffect(BATTLE_PARTNER(battlerAtk), battlerDef, move, AI_DATA->partnerMove))
                 {
                     score -= 10;
@@ -1550,12 +1559,14 @@ static s16 AI_CheckBadMove(u8 battlerAtk, u8 battlerDef, u16 move, s16 score)
             }
             else
             {
-                if (CountUsablePartyMons(battlerAtk) == 0 && AI_DATA->abilities[battlerAtk] != ABILITY_SOUNDPROOF
-                  && CountUsablePartyMons(battlerDef) >= 1)
-                    score -= 10;
-
-                if (gStatuses3[FOE(battlerAtk)] & STATUS3_PERISH_SONG || AI_DATA->abilities[FOE(battlerAtk)] == ABILITY_SOUNDPROOF)
-                    score -= 10;
+				if (CountUsablePartyMons(battlerAtk) == 0 && AI_DATA->abilities[battlerAtk] != ABILITY_SOUNDPROOF
+				  && AI_DATA->abilities[battlerAtk] != ABILITY_CACOPHONY
+				  && CountUsablePartyMons(battlerDef) >= 1)
+					score -= 10;
+					
+				if (gStatuses3[FOE(battlerAtk)] & STATUS3_PERISH_SONG || AI_DATA->abilities[FOE(battlerAtk)] == ABILITY_SOUNDPROOF 
+				|| AI_DATA->abilities[FOE(battlerAtk)] == ABILITY_CACOPHONY)
+					score -= 10;
             }
             break;
         case EFFECT_SANDSTORM:

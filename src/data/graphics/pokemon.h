@@ -7018,3 +7018,43 @@ const u8 gMonFootprint_Calyrex[] = INCBIN_U8("graphics/pokemon/calyrex/footprint
 //const u8 gMonFootprint_Overqwil[] = INCBIN_U8("graphics/pokemon/overqwil/footprint.1bpp");
 //const u8 gMonFootprint_Enamorus[] = INCBIN_U8("graphics/pokemon/enamorus/footprint.1bpp");
 #endif
+
+// Fakemon
+
+const u32 gMonFrontPic_Burgela[] = INCBIN_U32("graphics/pokemon/burgela/anim_front.4bpp.lz");
+const u32 gMonBackPic_Burgela[] = INCBIN_U32("graphics/pokemon/burgela/back.4bpp.lz");
+const u32 gMonPalette_Burgela[] = INCBIN_U32("graphics/pokemon/burgela/normal.gbapal.lz");
+const u32 gMonShinyPalette_Burgela[] = INCBIN_U32("graphics/pokemon/burgela/shiny.gbapal.lz");
+const u8 gMonIcon_Burgela[] = INCBIN_U8("graphics/pokemon/burgela/icon.4bpp");
+const u8 gMonFootprint_Burgela[] = INCBIN_U8("graphics/pokemon/burgela/footprint.1bpp");
+
+const u32 gMonFrontPic_Jungela[] = INCBIN_U32("graphics/pokemon/jungela/anim_front.4bpp.lz");
+const u32 gMonBackPic_Jungela[] = INCBIN_U32("graphics/pokemon/jungela/back.4bpp.lz");
+const u32 gMonPalette_Jungela[] = INCBIN_U32("graphics/pokemon/jungela/normal.gbapal.lz");
+const u32 gMonShinyPalette_Jungela[] = INCBIN_U32("graphics/pokemon/jungela/shiny.gbapal.lz");
+const u8 gMonIcon_Jungela[] = INCBIN_U8("graphics/pokemon/jungela/icon.4bpp");
+const u8 gMonFootprint_Jungela[] = INCBIN_U8("graphics/pokemon/jungela/footprint.1bpp");
+
+const u32 gMonFrontPic_Marillugma[] = INCBIN_U32("graphics/pokemon/marillugma/anim_front.4bpp.lz");
+const u32 gMonBackPic_Marillugma[] = INCBIN_U32("graphics/pokemon/marillugma/back.4bpp.lz");
+const u32 gMonPalette_Marillugma[] = INCBIN_U32("graphics/pokemon/marillugma/normal.gbapal.lz");
+const u32 gMonShinyPalette_Marillugma[] = INCBIN_U32("graphics/pokemon/marillugma/shiny.gbapal.lz");
+const u8 gMonIcon_Marillugma[] = INCBIN_U8("graphics/pokemon/marillugma/icon.4bpp");
+const u8 gMonFootprint_Marillugma[] = INCBIN_U8("graphics/pokemon/marillugma/footprint.1bpp");
+
+const u32 gMonFrontPic_Azumargo[] = INCBIN_U32("graphics/pokemon/azumargo/anim_front.4bpp.lz");
+const u32 gMonBackPic_Azumargo[] = INCBIN_U32("graphics/pokemon/azumargo/back.4bpp.lz");
+const u32 gMonPalette_Azumargo[] = INCBIN_U32("graphics/pokemon/azumargo/normal.gbapal.lz");
+const u32 gMonShinyPalette_Azumargo[] = INCBIN_U32("graphics/pokemon/azumargo/shiny.gbapal.lz");
+const u8 gMonIcon_Azumargo[] = INCBIN_U8("graphics/pokemon/azumargo/icon.4bpp");
+const u8 gMonFootprint_Azumargo[] = INCBIN_U8("graphics/pokemon/azumargo/footprint.1bpp");
+
+const u32 gMonFrontPic_Phancero[] = INCBIN_U32("graphics/pokemon/phancero/anim_front.4bpp.lz");
+const u32 gMonBackPic_Phancero[] = INCBIN_U32("graphics/pokemon/phancero/back.4bpp.lz");
+const u32 gMonPalette_Phancero[] = INCBIN_U32("graphics/pokemon/phancero/normal.gbapal.lz");
+const u32 gMonShinyPalette_Phancero[] = INCBIN_U32("graphics/pokemon/phancero/shiny.gbapal.lz");
+const u8 gMonIcon_Phancero[] = INCBIN_U8("graphics/pokemon/phancero/icon.4bpp");
+const u8 gMonFootprint_Phancero[] = INCBIN_U8("graphics/pokemon/phancero/footprint.1bpp");
+
+
+// End Fakemon

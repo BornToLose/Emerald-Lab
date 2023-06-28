@@ -974,7 +974,15 @@
 #define ITEM_PEAT_BLOCK 797
 #define ITEM_BERSERK_GENE 798
 
-#define ITEMS_COUNT 799
+// Fake Items
+#define ITEM_NIHON_INCENSE 799
+
+// Fake Items (useable)
+#define FIRST_NEW_ITEM 800
+#define ITEM_PRIME_STONE 801
+#define LAST_NEW_ITEM 802
+
+#define ITEMS_COUNT 803
 #define ITEM_FIELD_ARROW ITEMS_COUNT
 
 // A special item id associated with "Cancel"/"Exit" etc. in a list of items or decorations

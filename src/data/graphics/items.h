@@ -2001,3 +2001,13 @@ const u32 gItemIconPalette_LustrousGlobe[] = INCBIN_U32("graphics/items/icon_pal
 
 const u32 gItemIcon_BerserkGene[] = INCBIN_U32("graphics/items/icons/berserk_gene.4bpp.lz");
 const u32 gItemIconPalette_BerserkGene[] = INCBIN_U32("graphics/items/icon_palettes/berserk_gene.gbapal.lz");
+
+
+// Fake Items
+
+const u32 gItemIcon_NihonIncense[] = INCBIN_U32("graphics/items/icons/nihon_incense.4bpp.lz");
+const u32 gItemIconPalette_NihonIncense[] = INCBIN_U32("graphics/items/icon_palettes/nihon_incense.gbapal.lz");
+
+const u32 gItemIcon_PrimeStone[] = INCBIN_U32("graphics/items/icons/prime_stone.4bpp.lz");
+const u32 gItemIconPalette_PrimeStone[] = INCBIN_U32("graphics/items/icon_palettes/prime_stone.gbapal.lz");
+

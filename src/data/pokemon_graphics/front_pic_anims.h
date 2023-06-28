@@ -9513,6 +9513,63 @@ static const union AnimCmd sAnim_Enamorus_1[] =
 };
 #endif
 
+// Fakemon
+
+static const union AnimCmd sAnim_Burgela_1[] =
+{
+    ANIMCMD_FRAME(0, 10),
+    ANIMCMD_FRAME(1, 25),
+    ANIMCMD_FRAME(0, 10),
+    ANIMCMD_FRAME(1, 20),
+    ANIMCMD_FRAME(0, 10),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Jungela_1[] =
+{
+    ANIMCMD_FRAME(0, 15),
+    ANIMCMD_FRAME(1, 15),
+    ANIMCMD_FRAME(0, 15),
+    ANIMCMD_FRAME(1, 15),
+    ANIMCMD_FRAME(0, 15),
+    ANIMCMD_FRAME(1, 15),
+    ANIMCMD_FRAME(0, 50),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Marillugma_1[] =
+{
+    ANIMCMD_FRAME(0, 10),
+    ANIMCMD_FRAME(1, 10),
+    ANIMCMD_FRAME(0, 10),
+    ANIMCMD_FRAME(1, 10),
+    ANIMCMD_FRAME(0, 10),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Azumargo_1[] =
+{
+    ANIMCMD_FRAME(0, 15),
+    ANIMCMD_FRAME(1, 20),
+    ANIMCMD_FRAME(0, 15),
+    ANIMCMD_FRAME(1, 20),
+    ANIMCMD_FRAME(0, 15),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Phancero_1[] =
+{
+    ANIMCMD_FRAME(0, 18),
+    ANIMCMD_FRAME(1, 18),
+    ANIMCMD_FRAME(0, 18),
+    ANIMCMD_FRAME(1, 18),
+    ANIMCMD_FRAME(0, 10),
+    ANIMCMD_END,
+};
+
+
+// End Fakemon
+
 static const union AnimCmd sAnim_VenusaurMega_1[] =
 {
     ANIMCMD_FRAME(0, 1),
@@ -11637,6 +11694,14 @@ SINGLE_ANIMATION(LycanrocDusk);
 SINGLE_ANIMATION(EnamorusTherian);
 #endif
 
+// Fakemon
+SINGLE_ANIMATION(Burgela);
+SINGLE_ANIMATION(Jungela);
+SINGLE_ANIMATION(Marillugma);
+SINGLE_ANIMATION(Azumargo);
+SINGLE_ANIMATION(Phancero);
+// End Fakemon
+
 const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
 {
     [SPECIES_NONE]        = sAnims_None,
@@ -12555,6 +12620,13 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_OVERQWIL] = sAnims_Overqwil,
     [SPECIES_ENAMORUS] = sAnims_Enamorus,
 #endif
+// Fakemon
+	[SPECIES_BURGELA] = sAnims_Burgela,
+	[SPECIES_JUNGELA] = sAnims_Jungela,
+	[SPECIES_MARILLUGMA] = sAnims_Marillugma,
+	[SPECIES_AZUMARGO] = sAnims_Azumargo,
+	[SPECIES_PHANCERO] = sAnims_Phancero,
+// End Fakemon
     [SPECIES_VENUSAUR_MEGA] = sAnims_VenusaurMega,
     [SPECIES_CHARIZARD_MEGA_X] = sAnims_CHARIZARD_MEGA_X,
     [SPECIES_CHARIZARD_MEGA_Y] = sAnims_CHARIZARD_MEGA_Y,

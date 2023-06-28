@@ -5399,3 +5399,36 @@ const u8 gEnamorusPokedexText[] = _(
     "Pokémon's love gives rise to the\n"
     "budding of fresh life across the land.");
 #endif
+
+// Fakemon
+	
+const u8 gBurgelaPokedexText[] = _(
+    "It hides among the shrubs by burrowing\n"
+    "itself in the ground. The unruly vines\n"
+    "hanging from its head can be clipped\n"
+    "and planted to grow more.");
+	
+const u8 gJungelaPokedexText[] = _(
+    "It compensates its poor vision with its\n"
+    "heightened senses. Its self-styled vines\n"
+	"are a source of pride, so it will help\n"
+    "Burgela and Tangela style theirs.");
+	
+const u8 gMarillugmaPokedexText[] = _(
+    "These group together in areas that are\n"
+    "hotter than normal. It can stay dry,\n"
+    "even when it plays in the water.");
+	
+const u8 gAzumargoPokedexText[] = _(
+    "Its body is as hot as lava and is always\n"
+    "billowing. The bubble-like pattern on\n"
+    "its stomach helps it camouflage itself\n"
+    "when it's in the water.");
+	
+const u8 gPhanceroPokedexText[] = _(
+    "It resides in a lost realm within which\n"
+    "creates illusions to protect itself. It\n"
+    "only ever reveals itself under unusual\n"
+	"circumstances.");
+	
+// End fakemon

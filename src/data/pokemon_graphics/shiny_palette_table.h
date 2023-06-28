@@ -916,6 +916,13 @@ const struct CompressedSpritePalette gMonShinyPaletteTable[] =
     SPECIES_SHINY_PAL(OVERQWIL, gMonShinyPalette_Overqwil),
     SPECIES_SHINY_PAL(ENAMORUS, gMonShinyPalette_Enamorus),
 #endif
+// Fakemon
+	SPECIES_SHINY_PAL(BURGELA, gMonShinyPalette_Burgela),
+	SPECIES_SHINY_PAL(JUNGELA, gMonShinyPalette_Jungela),
+	SPECIES_SHINY_PAL(MARILLUGMA, gMonShinyPalette_Marillugma),
+	SPECIES_SHINY_PAL(AZUMARGO, gMonShinyPalette_Azumargo),
+	SPECIES_SHINY_PAL(PHANCERO, gMonShinyPalette_Phancero),
+// End Fakemon
 
     SPECIES_SHINY_PAL(VENUSAUR_MEGA, gMonShinyPalette_VenusaurMega),
     SPECIES_SHINY_PAL(CHARIZARD_MEGA_X, gMonShinyPalette_CharizardMegaX),

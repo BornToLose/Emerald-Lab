@@ -1439,6 +1439,13 @@ gCryTable::
 	cry Cry_Unown
 	cry Cry_Unown
 .endif
+	// Fakemon
+	cry Cry_Burgela
+	cry Cry_Jungela
+	cry Cry_Marillugma
+	cry Cry_Azumargo
+	cry Cry_Phancero
+	// End Fakemon
 	@ Megas
 	cry Cry_VenusaurMega
 	cry Cry_CharizardMegaX
@@ -3463,6 +3470,13 @@ gCryTable_Reverse::
 	cry_reverse Cry_Sneasler
 	cry_reverse Cry_Overqwil
 	cry_reverse Cry_Enamorus
+	// Fakemon
+	cry_reverse Cry_Burgela
+	cry_reverse Cry_Jungela
+	cry_reverse Cry_Marillugma
+	cry_reverse Cry_Azumargo
+	cry_reverse Cry_Phancero
+	// End Fakemon
 .else
 	cry_reverse Cry_Unown
 	cry_reverse Cry_Unown

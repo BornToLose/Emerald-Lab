@@ -942,6 +942,13 @@ const u8 *const gMonIconTable[] =
     [SPECIES_OVERQWIL] = gMonIcon_Overqwil,
     [SPECIES_ENAMORUS] = gMonIcon_Enamorus,
 #endif
+// Fakemon
+	[SPECIES_BURGELA] = gMonIcon_Burgela,
+	[SPECIES_JUNGELA] = gMonIcon_Jungela,
+	[SPECIES_MARILLUGMA] = gMonIcon_Marillugma,
+	[SPECIES_AZUMARGO] = gMonIcon_Azumargo,
+	[SPECIES_PHANCERO] = gMonIcon_Phancero,
+// End Fakemon
     [SPECIES_VENUSAUR_MEGA] = gMonIcon_VenusaurMega,
     [SPECIES_CHARIZARD_MEGA_X] = gMonIcon_CharizardMegaX,
     [SPECIES_CHARIZARD_MEGA_Y] = gMonIcon_CharizardMegaY,
@@ -2235,6 +2242,13 @@ const u8 gMonIconPaletteIndices[] =
     [SPECIES_SNEASLER] = 2,
     [SPECIES_OVERQWIL] = 2,
     [SPECIES_ENAMORUS] = 1,
+// Fakemon
+	[SPECIES_BURGELA] = 0,
+	[SPECIES_JUNGELA] = 0,
+	[SPECIES_MARILLUGMA] = 0,
+	[SPECIES_AZUMARGO] = 0,
+	[SPECIES_PHANCERO] = 1,
+// End Fakemon
     [SPECIES_VENUSAUR_MEGA] = 1,
     [SPECIES_CHARIZARD_MEGA_X] = 0,
     [SPECIES_CHARIZARD_MEGA_Y] = 0,

@@ -7088,6 +7088,45 @@ extern const u8 gMonFootprint_Calyrex[];
 //extern const u8 gMonFootprint_Enamorus[];
 #endif
 
+// Fakemon
+
+extern const u32 gMonFrontPic_Burgela[];
+extern const u32 gMonBackPic_Burgela[];
+extern const u32 gMonShinyPalette_Burgela[];
+extern const u32 gMonPalette_Burgela[];
+extern const u8 gMonIcon_Burgela[];
+extern const u8 gMonFootprint_Burgela[];
+
+extern const u32 gMonFrontPic_Jungela[];
+extern const u32 gMonBackPic_Jungela[];
+extern const u32 gMonShinyPalette_Jungela[];
+extern const u32 gMonPalette_Jungela[];
+extern const u8 gMonIcon_Jungela[];
+extern const u8 gMonFootprint_Jungela[];
+
+extern const u32 gMonFrontPic_Marillugma[];
+extern const u32 gMonBackPic_Marillugma[];
+extern const u32 gMonShinyPalette_Marillugma[];
+extern const u32 gMonPalette_Marillugma[];
+extern const u8 gMonIcon_Marillugma[];
+extern const u8 gMonFootprint_Marillugma[];
+
+extern const u32 gMonFrontPic_Azumargo[];
+extern const u32 gMonBackPic_Azumargo[];
+extern const u32 gMonShinyPalette_Azumargo[];
+extern const u32 gMonPalette_Azumargo[];
+extern const u8 gMonIcon_Azumargo[];
+extern const u8 gMonFootprint_Azumargo[];
+
+extern const u32 gMonFrontPic_Phancero[];
+extern const u32 gMonBackPic_Phancero[];
+extern const u32 gMonShinyPalette_Phancero[];
+extern const u32 gMonPalette_Phancero[];
+extern const u8 gMonIcon_Phancero[];
+extern const u8 gMonFootprint_Phancero[];
+
+// End Fakemon
+
 // trainer sprites
 extern const u32 gTrainerFrontPic_Hiker[];
 extern const u32 gTrainerFrontPic_AquaGruntM[];
@@ -8883,6 +8922,13 @@ extern const u32 gItemIconPalette_BerserkGene[];
 
 extern const u32 gItemIcon_ReturnToFieldArrow[];
 extern const u32 gItemIconPalette_ReturnToFieldArrow[];
+
+// fake items
+extern const u32 gItemIcon_NihonIncense[];
+extern const u32 gItemIconPalette_NihonIncense[];
+extern const u32 gItemIcon_PrimeStone[];
+extern const u32 gItemIconPalette_PrimeStone[];
+
 
 //menu graphics
 extern const u16 gMenuInfoElements1_Pal[16];

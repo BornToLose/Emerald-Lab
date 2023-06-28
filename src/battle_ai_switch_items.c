@@ -249,7 +249,7 @@ static bool8 ShouldSwitchIfGameStatePrompt(void)
     //Perish Song
     if (gStatuses3[gActiveBattler] & STATUS3_PERISH_SONG
         && gDisableStructs[gActiveBattler].perishSongTimer == 0
-        && monAbility != ABILITY_SOUNDPROOF)
+        && monAbility != ABILITY_SOUNDPROOF && monAbility != ABILITY_CACOPHONY)
         switchMon = TRUE;
 
     if (AI_THINKING_STRUCT->aiFlags & AI_FLAG_SMART_SWITCHING)

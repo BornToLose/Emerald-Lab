@@ -3912,3 +3912,15 @@ static const u8 sBerserkGene[] = _(
     "Sharply boosts\n"
     "Attack, but causes\n"
     "lasting confusion.");
+
+// Fake Items
+
+static const u8 sNihonIncenseDesc[] = _(
+    "A hold item that\n"
+    "serves to prevent\n"
+	"evolution.");
+	
+static const u8 sPrimeStoneDesc[] = _(
+    "Makes certain\n"
+    "species of Pokémon\n"
+    "evolve.");

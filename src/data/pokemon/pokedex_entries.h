@@ -10881,4 +10881,69 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 1,
     },
 #endif
+
+// Fakemon
+	
+	[NATIONAL_DEX_BURGELA] =
+	{
+		.categoryName = _("Vine"),
+		.height = 7,
+		.weight = 200,
+		.description = gBurgelaPokedexText,
+		.pokemonScale = 356,
+		.pokemonOffset = 17,
+		.trainerScale = 256,
+		.trainerOffset = 0,
+	},
+	
+	[NATIONAL_DEX_JUNGELA] =
+	{
+		.categoryName = _("Mischief"),
+		.height = 16,
+		.weight = 554,
+		.description = gJungelaPokedexText,
+		.pokemonScale = 356,
+		.pokemonOffset = 17,
+		.trainerScale = 256,
+		.trainerOffset = 0,
+	},
+	
+	[NATIONAL_DEX_MARILLUGMA] =
+	{
+		.categoryName = _("Lava Mouse"),
+        .height = 4,
+        .weight = 85,
+        .description = gMarillugmaPokedexText,
+        .pokemonScale = 476,
+        .pokemonOffset = 20,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+	},
+	
+	[NATIONAL_DEX_AZUMARGO] =
+{
+	.categoryName = _("Lava Rabbit"),
+	.height = 8,
+	.weight = 285,
+	.description = gAzumargoPokedexText,
+	.pokemonScale = 448,
+	.pokemonOffset = 16,
+	.trainerScale = 256,
+	.trainerOffset = 0,
+},
+
+	[NATIONAL_DEX_PHANCERO] =
+{
+	.categoryName = _("Glitchbird"),
+	.height = 15,
+	.weight = 468,
+	.description = gPhanceroPokedexText,
+	.pokemonScale = 331,
+	.pokemonOffset = 10,
+	.trainerScale = 256,
+	.trainerOffset = 0,
+},
+
+// End Fakemon
+
 };
