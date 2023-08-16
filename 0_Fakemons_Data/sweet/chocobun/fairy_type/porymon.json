@@ -1,19 +1,19 @@
 {
     "species_info" : {
-        "species_name" : "Cottonbun",
+        "species_name" : "Chocobun",
 
         "baseStats" : {
-            "baseHP"        : 60,
-            "baseAttack"    : 70,
-            "baseDefense"   : 70,
-            "baseSpAttack"  : 65,
-            "baseSpDefense" : 70,
-            "baseSpeed"     : 65
+            "baseHP"        : 120,
+            "baseAttack"    : 120,
+            "baseDefense"   : 90,
+            "baseSpAttack"  : 70,
+            "baseSpDefense" : 100,
+            "baseSpeed"     : 100
         },
 
         "evYield" : {
             "evYield_HP"        : 0,
-            "evYield_Attack"    : 2,
+            "evYield_Attack"    : 3,
             "evYield_Defense"   : 0,
             "evYield_SpAttack"  : 0,
             "evYield_SpDefense" : 0,
@@ -31,10 +31,10 @@
             "abilityHidden" : "ABILITY_UNNERVE"
         },
 
-        "catchRate"   : 145,
-        "expYield"    : 150,
+        "catchRate"   : 45,
+        "expYield"    : 218,
         "genderRatio" : 127,
-        "eggCycles"   : 2,
+        "eggCycles"   : 120,
         "friendship"  : 35,
         "growthRate"  : "GROWTH_SLOW",
         "bodyColor"   : "BODY_COLOR_BROWN",
@@ -48,18 +48,18 @@
 
     "pokedex_data" : {
         "categoryName"  : "Bunny",
-        "height"        : 4,
-        "weight"        : 55,
-        "pokemonScale"  : 491,
-        "pokemonOffset" : 16,
-        "trainerScale"  : 255,
+        "height"        : 12,
+        "weight"        : 333,
+        "pokemonScale"  : 282,
+        "pokemonOffset" : 4,
+        "trainerScale"  : 256,
         "trainerOffset" : 0,
 
         "description" : {
-            "descLine1" : "This Pokémon hatched from a chocolate",
-            "descLine2" : "egg. It has a tendency to play with",
-            "descLine3" : "its food for a while before finally",
-            "descLine4" : "eating it."
+            "descLine1" : "It's said that it used its magic",
+            "descLine2" : "and kind heart to craft a world of",
+            "descLine3" : "sweets and love. It wields a tasty",
+            "descLine4" : "and delicious power."
         }
     },
 
@@ -68,7 +68,7 @@
     },
 
     "evolution_data" : [
-        { "method" : "EVO_LEVEL", "param" : 40, "targetSpecies" : "SPECIES_CHOCOBUN" }
+        { "method" : false }
     ],
 
     "level_up_moveset" : [
@@ -82,17 +82,26 @@
         { "level" : 29, "move" : "MOVE_SLAM" }
         { "level" : 38, "move" : "MOVE_AGILITY" }
         { "level" : 47, "move" : "MOVE_SAFEGUARD" }
-        { "level" : 56, "move" : "MOVE_OUTRAGE" }
-        { "level" : 65, "move" : "MOVE_HYPER_BEAM" }
+        { "level" : 55, "move" : "MOVE_SKY_ATTACK" }
+        { "level" : 61, "move" : "MOVE_OUTRAGE" }
+        { "level" : 75, "move" : "MOVE_HYPER_BEAM" }
     ],
 
     "teachable_moveset" : [
+        { "move" : "MOVE_AERIAL_ACE" },
         { "move" : "MOVE_ATTRACT" },
         { "move" : "MOVE_BLIZZARD" }
+        { "move" : "MOVE_BRICK_BREAK" }
+        { "move" : "MOVE_CUT" }
+        { "move" : "MOVE_DIVE" }
         { "move" : "MOVE_DOUBLE_TEAM" }
+        { "move" : "MOVE_DRAGON_CLAW" }
+        { "move" : "MOVE_EARTHQUAKE" }
         { "move" : "MOVE_FACADE" }
         { "move" : "MOVE_FIRE_BLAST" }
         { "move" : "MOVE_FLAMETHROWER" }
+        { "move" : "MOVE_FLY" }
+        { "move" : "MOVE_FOCUS_PUNCH" }
         { "move" : "MOVE_FRUSTRATION" }
         { "move" : "MOVE_HAIL" }
         { "move" : "MOVE_HYPER_BEAM" }
@@ -103,8 +112,15 @@
         { "move" : "MOVE_RAIN_DANCE" }
         { "move" : "MOVE_REST" }
         { "move" : "MOVE_RETURN" }
+        { "move" : "MOVE_ROAR" }
+        { "move" : "MOVE_ROCK_SMASH" }
+        { "move" : "MOVE_ROCK_TOMB" }
         { "move" : "MOVE_SAFEGUARD" }
+        { "move" : "MOVE_SANDSTORM" }
         { "move" : "MOVE_SECRET_POWER" }
+        { "move" : "MOVE_SHOCK_WAVE" }
+        { "move" : "MOVE_STEEL_WING" }
+        { "move" : "MOVE_STRENGTH" }
         { "move" : "MOVE_SUNNY_DAY" }
         { "move" : "MOVE_SURF" }
         { "move" : "MOVE_THUNDER" }
@@ -125,14 +141,14 @@
 
     "back_pic_coordinates" : {
         "x" : 64,
-        "y" : 64,
-        "y_offset" : 4
+        "y" : 56,
+        "y_offset" : 5
     },
 
     "front_pic_coordinates" : {
-        "x" : 32,
-        "y" : 64,
-        "y_offset" : 9
+        "x" : 56,
+        "y" : 56,
+        "y_offset" : 4
     },
 
     "icon_pal_num" : 0
