@@ -922,6 +922,8 @@ const struct CompressedSpritePalette gMonPaletteTable[] =
 	SPECIES_PAL(MARILLUGMA, gMonPalette_Marillugma),
 	SPECIES_PAL(AZUMARGO, gMonPalette_Azumargo),
 	SPECIES_PAL(PHANCERO, gMonPalette_Phancero),
+	SPECIES_PAL(COTTONBUN, gMonPalette_Cottonbun),
+	SPECIES_PAL(CHOCOBUN, gMonPalette_Chocobun),
 // End Fakemon
     SPECIES_PAL(VENUSAUR_MEGA, gMonPalette_VenusaurMega),
     SPECIES_PAL(CHARIZARD_MEGA_X, gMonPalette_CharizardMegaX),

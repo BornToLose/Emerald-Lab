@@ -4406,6 +4406,7 @@ BattleScript_EffectTwoTurnsAttack::
 	jumpifmove MOVE_RAZOR_WIND, BattleScript_EffectTwoTurnsAttackRazorWind
 	jumpifmove MOVE_ICE_BURN, BattleScript_EffectTwoTurnsAttackIceBurn
 	jumpifmove MOVE_FREEZE_SHOCK, BattleScript_EffectTwoTurnsAttackFreezeShock
+	jumpifmove MOVE_PIE_ATTACK, BattleScript_EffectTwoTurnsAttackPieAttack
 	setbyte sTWOTURN_STRINGID, B_MSG_TURN1_RAZOR_WIND
 BattleScript_EffectTwoTurnsAttackContinue:
 	call BattleScriptFirstChargingTurn
@@ -4423,6 +4424,9 @@ BattleScript_EffectTwoTurnsAttackIceBurn:
 	goto BattleScript_EffectTwoTurnsAttackContinue
 BattleScript_EffectTwoTurnsAttackFreezeShock:
 	setbyte sTWOTURN_STRINGID, B_MSG_TURN1_FREEZE_SHOCK
+	goto BattleScript_EffectTwoTurnsAttackContinue
+BattleScript_EffectTwoTurnsAttackPieAttack:
+	setbyte sTWOTURN_STRINGID, B_MSG_TURN1_PIE_ATTACK
 	goto BattleScript_EffectTwoTurnsAttackContinue
 
 BattleScript_EffectGeomancy:

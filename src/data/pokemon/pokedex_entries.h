@@ -10921,28 +10921,52 @@ const struct PokedexEntry gPokedexEntries[] =
 	},
 	
 	[NATIONAL_DEX_AZUMARGO] =
-{
-	.categoryName = _("Lava Rabbit"),
-	.height = 8,
-	.weight = 285,
-	.description = gAzumargoPokedexText,
-	.pokemonScale = 448,
-	.pokemonOffset = 16,
-	.trainerScale = 256,
-	.trainerOffset = 0,
-},
+	{
+		.categoryName = _("Lava Rabbit"),
+		.height = 8,
+		.weight = 285,
+		.description = gAzumargoPokedexText,
+		.pokemonScale = 448,
+		.pokemonOffset = 16,
+		.trainerScale = 256,
+		.trainerOffset = 0,
+	},
 
 	[NATIONAL_DEX_PHANCERO] =
-{
-	.categoryName = _("Glitchbird"),
-	.height = 15,
-	.weight = 468,
-	.description = gPhanceroPokedexText,
-	.pokemonScale = 331,
-	.pokemonOffset = 10,
-	.trainerScale = 256,
-	.trainerOffset = 0,
-},
+	{
+		.categoryName = _("Glitchbird"),
+		.height = 15,
+		.weight = 468,
+		.description = gPhanceroPokedexText,
+		.pokemonScale = 331,
+		.pokemonOffset = 10,
+		.trainerScale = 256,
+		.trainerOffset = 0,
+	},
+
+	[NATIONAL_DEX_COTTONBUN] =
+	{
+		.categoryName = _("Bunny"),
+		.height = 4,
+		.weight = 55,
+		.description = gCottonbunPokedexText,
+		.pokemonScale = 491,
+		.pokemonOffset = 16,
+		.trainerScale = 256,
+		.trainerOffset = 0,
+	},
+
+	[NATIONAL_DEX_CHOCOBUN] =
+	{
+		.categoryName = _("Bunny"),
+		.height = 12,
+		.weight = 333,
+		.description = gChocobunPokedexText,
+		.pokemonScale = 282,
+		.pokemonOffset = 4,
+		.trainerScale = 256,
+		.trainerOffset = 0,
+	},
 
 // End Fakemon
 

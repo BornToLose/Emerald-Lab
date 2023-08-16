@@ -4034,6 +4034,14 @@ Cry_Azumargo::
 	.align 2
 Cry_Phancero::
 	.incbin "sound/direct_sound_samples/cries/phancero.bin"
+	
+	.align 2
+Cry_Cottonbun::
+	.incbin "sound/direct_sound_samples/cries/cottonbun.bin"
+
+	.align 2
+Cry_Chocobun::
+	.incbin "sound/direct_sound_samples/cries/chocobun.bin"
 
 .endif
 

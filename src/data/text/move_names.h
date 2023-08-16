@@ -1665,6 +1665,21 @@ const u8 gMoveNames[MOVES_COUNT][MOVE_NAME_LENGTH + 1] =
     [MOVE_MAGICAL_TORQUE] = _("MagiclTorque"),
     [MOVE_PSYBLADE] = _("Psyblade"),
     [MOVE_HYDRO_STEAM] = _("Hydro Steam"),
+	/* Fake moves */
+    [MOVE_FUDGE_SLAP] = _("Fudge Slap"),
+    [MOVE_CHOCO_PUNCH] = _("Choco Punch"),
+    [MOVE_SQUEEZE] = _("Squeeze"),
+    [MOVE_PIE_ATTACK] = _("Pie Attack"),
+	[MOVE_ORANGE_WAVE] = _("Orange Wave"),
+	[MOVE_ORANGE_BOLT] = _("Orange Bolt"),
+	[MOVE_ORANGE_CRUSH] = _("Orange Crush"),
+	[MOVE_ZEST] = _("Zest"),
+	[MOVE_APPLE_TAIL] = _("Apple Tail"),
+	[MOVE_ICE_CREAM] = _("Ice Cream"),
+	[MOVE_BRAIN_FREEZE] = _("Brain Freeze"),
+	[MOVE_BANANA_WING] = _("Banana Wing"),
+	[MOVE_MAGIC_CLAW] = _("Magic Claw"),
+	/* End fake moves */
 };
 #endif
 

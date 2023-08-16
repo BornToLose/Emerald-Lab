@@ -13655,6 +13655,247 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
         .split = SPLIT_SPECIAL,
         .zMoveEffect = Z_EFFECT_NONE,
     },
+	
+	/* Fake moves */
+	[MOVE_FUDGE_SLAP] =
+    {
+        .effect = EFFECT_ACCURACY_DOWN_HIT,
+        .power = 20,
+        .type = TYPE_CHOCOLATE,
+        .accuracy = 100,
+        .pp = 10,
+        .secondaryEffectChance = 100,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 0,
+        .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_SHEER_FORCE_BOOST,
+        .split = SPLIT_SPECIAL,
+        .zMoveEffect = Z_EFFECT_NONE,
+    },
+	
+	[MOVE_CHOCO_PUNCH] =
+    {
+        .effect = EFFECT_HIT,
+        .power = 40,
+        .type = TYPE_CHOCOLATE,
+        .accuracy = 100,
+        .pp = 30,
+        .secondaryEffectChance = 0,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 1,
+        .flags = FLAG_MAKES_CONTACT | FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED | FLAG_IRON_FIST_BOOST,
+        .split = SPLIT_PHYSICAL,
+        .zMoveEffect = Z_EFFECT_NONE,
+    },
+	
+	[MOVE_SQUEEZE] =
+	{
+		#if B_UPDATED_MOVE_DATA >= GEN_5
+			.accuracy = 90,
+		#else
+			.accuracy = 85,
+		#endif
+		.effect = EFFECT_TRAP,
+		.power = 15,
+		.type = TYPE_LIME,
+		.pp = 20,
+		.secondaryEffectChance = 100,
+		.target = MOVE_TARGET_SELECTED,
+		.priority = 0,
+		.flags = FLAG_MAKES_CONTACT | FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED,
+		.split = SPLIT_PHYSICAL,
+		.zMoveEffect = Z_EFFECT_NONE,
+	},
+	
+	[MOVE_PIE_ATTACK] =
+	{
+		#if B_UPDATED_MOVE_DATA >= GEN_5
+			.flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_SHEER_FORCE_BOOST,
+		#else
+			.flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED | FLAG_SHEER_FORCE_BOOST,
+		#endif
+		.effect = EFFECT_TWO_TURNS_ATTACK,
+		.power = 140,
+		.type = TYPE_LIME,
+		.accuracy = 90,
+		.pp = 5,
+		.secondaryEffectChance = 30,
+		.target = MOVE_TARGET_SELECTED,
+		.priority = 0,
+		.split = SPLIT_PHYSICAL,
+		.argument = MOVE_EFFECT_FLINCH,
+		.zMoveEffect = Z_EFFECT_NONE,
+	},
+	
+	[MOVE_ORANGE_WAVE] =
+	{
+		#if B_UPDATED_MOVE_DATA >= GEN_7
+			.accuracy = 90,
+		#else
+			.accuracy = 100,
+		#endif
+		.effect = EFFECT_PARALYZE,
+		.power = 0,
+		.type = TYPE_ORANGE,
+		.pp = 20,
+		.secondaryEffectChance = 0,
+		.target = MOVE_TARGET_SELECTED,
+		.priority = 0,
+		.flags = FLAG_PROTECT_AFFECTED | FLAG_MAGIC_COAT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED,
+		.split = SPLIT_STATUS,
+		.zMoveEffect = Z_EFFECT_SPDEF_UP_1,
+	},
+
+	[MOVE_ORANGE_BOLT] =
+	{
+		#if B_UPDATED_MOVE_DATA >= GEN_6
+			.power = 90,
+		#else
+			.power = 95,
+		#endif
+		.effect = EFFECT_PARALYZE_HIT,
+		.type = TYPE_ORANGE,
+		.accuracy = 100,
+		.pp = 15,
+		.secondaryEffectChance = 10,
+		.target = MOVE_TARGET_SELECTED,
+		.priority = 0,
+		.flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_SHEER_FORCE_BOOST,
+		.split = SPLIT_SPECIAL,
+		.zMoveEffect = Z_EFFECT_NONE,
+	},
+
+	[MOVE_ORANGE_CRUSH] =
+	{
+		#if B_UPDATED_MOVE_DATA >= GEN_6
+			.power = 110,
+		#else
+			.power = 120,
+		#endif
+		.effect = EFFECT_THUNDER,
+		.type = TYPE_ORANGE,
+		.accuracy = 70,
+		.pp = 10,
+		.secondaryEffectChance = 30,
+		.target = MOVE_TARGET_SELECTED,
+		.priority = 0,
+		.flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_SHEER_FORCE_BOOST | FLAG_DMG_IN_AIR,
+		.split = SPLIT_SPECIAL,
+		.zMoveEffect = Z_EFFECT_NONE,
+	},
+
+	[MOVE_ZEST] =
+	{
+		#if B_UPDATED_MOVE_DATA >= GEN_9
+			.pp = 5,
+		#else
+			.pp = 10,
+		#endif
+		.effect = EFFECT_REST,
+		.power = 0,
+		.type = TYPE_ORANGE,
+		.accuracy = 0,
+		.secondaryEffectChance = 0,
+		.target = MOVE_TARGET_USER,
+		.priority = 0,
+		.flags = FLAG_SNATCH_AFFECTED,
+		.split = SPLIT_STATUS,
+		.zMoveEffect = Z_EFFECT_RESET_STATS,
+	},
+	
+	[MOVE_APPLE_TAIL] =
+    {
+        .effect = EFFECT_DEFENSE_DOWN_HIT,
+        .power = 100,
+        .type = TYPE_APPLE,
+        .accuracy = 75,
+        .pp = 15,
+        .secondaryEffectChance = 30,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 0,
+        .flags = FLAG_MAKES_CONTACT | FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_SHEER_FORCE_BOOST,
+        .split = SPLIT_PHYSICAL,
+        .zMoveEffect = Z_EFFECT_NONE,
+    },
+	
+	[MOVE_ICE_CREAM] =
+	{
+		#if B_UPDATED_MOVE_DATA >= GEN_6
+			.power = 90,
+		#else
+			.power = 95,
+		#endif
+		// The following effect is also relevant in battle_pike.c
+		// If you cherry-pick this to use something other than the config, make sure to update it there too
+		#if B_USE_FROSTBITE == TRUE
+			.effect = EFFECT_FROSTBITE_HIT,
+		#else
+			.effect = EFFECT_FREEZE_HIT,
+		#endif
+		.type = TYPE_GRAPE,
+		.accuracy = 100,
+		.pp = 10,
+		.secondaryEffectChance = 10,
+		.target = MOVE_TARGET_SELECTED,
+		.priority = 0,
+		.flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_SHEER_FORCE_BOOST,
+		.split = SPLIT_SPECIAL,
+		.zMoveEffect = Z_EFFECT_NONE,
+	},
+	
+	[MOVE_BRAIN_FREEZE] =
+	{
+		#if B_UPDATED_MOVE_DATA >= GEN_6
+			.power = 110,
+		#else
+			.power = 120,
+		#endif
+		#if B_USE_FROSTBITE == TRUE
+			.effect = EFFECT_FROSTBITE_HIT,
+		#else
+			.effect = EFFECT_FREEZE_HIT,
+		#endif
+		.type = TYPE_GRAPE,
+		.accuracy = 70,
+		.pp = 5,
+		.secondaryEffectChance = 10,
+		.target = MOVE_TARGET_BOTH,
+		.priority = 0,
+		.flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_SHEER_FORCE_BOOST | FLAG_WIND_MOVE,
+		.split = SPLIT_SPECIAL,
+		.zMoveEffect = Z_EFFECT_NONE,
+	},
+	
+	[MOVE_BANANA_WING] =
+	{
+		.effect = EFFECT_DEFENSE_UP_HIT,
+		.power = 70,
+		.type = TYPE_BANANA,
+		.accuracy = 90,
+		.pp = 25,
+		.secondaryEffectChance = 10,
+		.target = MOVE_TARGET_SELECTED,
+		.priority = 0,
+		.flags = FLAG_MAKES_CONTACT | FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED | FLAG_SHEER_FORCE_BOOST,
+		.split = SPLIT_PHYSICAL,
+		.zMoveEffect = Z_EFFECT_NONE,
+	},
+	
+	[MOVE_MAGIC_CLAW] =
+    {
+        .effect = EFFECT_HIT,
+        .power = 80,
+        .type = TYPE_RASPBERRY,
+        .accuracy = 100,
+        .pp = 15,
+        .secondaryEffectChance = 0,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 0,
+        .flags = FLAG_MAKES_CONTACT | FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED,
+        .split = SPLIT_PHYSICAL,
+        .zMoveEffect = Z_EFFECT_NONE,
+    },
+	
+	/* End fake moves */
 
     // Z-Moves
     [MOVE_BREAKNECK_BLITZ] =

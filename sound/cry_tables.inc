@@ -1445,6 +1445,8 @@ gCryTable::
 	cry Cry_Marillugma
 	cry Cry_Azumargo
 	cry Cry_Phancero
+	cry Cry_Cottonbun
+	cry Cry_Chocobun
 	// End Fakemon
 	@ Megas
 	cry Cry_VenusaurMega
@@ -3476,6 +3478,8 @@ gCryTable_Reverse::
 	cry_reverse Cry_Marillugma
 	cry_reverse Cry_Azumargo
 	cry_reverse Cry_Phancero
+	cry_reverse Cry_Cottonbun
+	cry_reverse Cry_Chocobun
 	// End Fakemon
 .else
 	cry_reverse Cry_Unown

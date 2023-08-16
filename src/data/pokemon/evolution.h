@@ -542,6 +542,8 @@ const struct Evolution gEvolutionTable[NUM_SPECIES][EVOS_PER_MON] =
 	[SPECIES_BURGELA]               = {{EVO_LEVEL, 15, SPECIES_TANGELA}},
 	
 	[SPECIES_MARILLUGMA]            = {{EVO_LEVEL, 18, SPECIES_AZUMARGO}},
+	
+	[SPECIES_COTTONBUN]             = {{EVO_LEVEL, 40, SPECIES_CHOCOBUN}},
 									   
 // End Fakemon
 									   

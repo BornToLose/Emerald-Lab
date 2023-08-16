@@ -5431,4 +5431,16 @@ const u8 gPhanceroPokedexText[] = _(
     "only ever reveals itself under unusual\n"
 	"circumstances.");
 	
+const u8 gCottonbunPokedexText[] = _(
+    "This Pokémon hatched from a chocolate\n"
+    "egg. It has a tendency to play with\n"
+    "its food for a while before finally\n"
+    "eating it.");
+	
+const u8 gChocobunPokedexText[] = _(
+    "It's said that it used its magic\n"
+    "and kind heart to craft a world of\n"
+    "sweets and love. It wields a tasty\n"
+    "and delicious power.");
+	
 // End fakemon

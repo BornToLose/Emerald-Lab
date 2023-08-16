@@ -1397,6 +1397,13 @@ static const struct SearchOptionText sDexSearchTypeOptions[NUMBER_OF_MON_TYPES +
     {gText_DexEmptyString, gTypeNames[TYPE_DRAGON]},
     {gText_DexEmptyString, gTypeNames[TYPE_DARK]},
     {gText_DexEmptyString, gTypeNames[TYPE_FAIRY]},
+    {gText_DexEmptyString, gTypeNames[TYPE_APPLE]},
+    {gText_DexEmptyString, gTypeNames[TYPE_ORANGE]},
+	{gText_DexEmptyString, gTypeNames[TYPE_BANANA]},
+    {gText_DexEmptyString, gTypeNames[TYPE_LIME]},
+    {gText_DexEmptyString, gTypeNames[TYPE_GRAPE]},
+	{gText_DexEmptyString, gTypeNames[TYPE_RASPBERRY]},
+    {gText_DexEmptyString, gTypeNames[TYPE_CHOCOLATE]},
     {},
 };
 
@@ -1432,6 +1439,13 @@ static const u8 sDexSearchTypeIds[NUMBER_OF_MON_TYPES] =
     TYPE_DRAGON,
     TYPE_DARK,
     TYPE_FAIRY,
+    TYPE_APPLE,
+    TYPE_ORANGE,
+    TYPE_BANANA,
+    TYPE_LIME,
+    TYPE_GRAPE,
+    TYPE_RASPBERRY,
+    TYPE_CHOCOLATE,
 };
 
 // Number pairs are the task data for tracking the cursor pos and scroll offset of each option list

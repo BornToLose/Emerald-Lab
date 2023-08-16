@@ -945,6 +945,8 @@ const struct MonCoords gMonBackPicCoords[] =
 	[SPECIES_MARILLUGMA]                   = { .size = MON_COORDS_SIZE(64, 56), .y_offset =  6 },
 	[SPECIES_AZUMARGO]                     = { .size = MON_COORDS_SIZE(64, 64), .y_offset =  3 },
 	[SPECIES_PHANCERO]                     = { .size = MON_COORDS_SIZE(64, 64), .y_offset =  0 },
+	[SPECIES_COTTONBUN]                    = { .size = MON_COORDS_SIZE(64, 64), .y_offset =  4 },
+	[SPECIES_CHOCOBUN]                     = { .size = MON_COORDS_SIZE(64, 56), .y_offset =  5 },
 // End Fakemon
     [SPECIES_VENUSAUR_MEGA]                = { .size = MON_COORDS_SIZE(64, 64), .y_offset =  8 },
     [SPECIES_CHARIZARD_MEGA_X]             = { .size = MON_COORDS_SIZE(64, 64), .y_offset =  1 },

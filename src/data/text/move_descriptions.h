@@ -3263,6 +3263,70 @@ static const u8 sHydroSteamDescription[] = _(
 const u8 gNotDoneYetDescription[] = _(
     "This move can't be used. Its\n"
     "effect is in development.");
+	
+/* Fake moves */
+
+static const u8 sFudgeSlapDescription[] = _(
+    "Hurls fudge in the foe's\n"
+    "face to reduce its accuracy.");
+	
+static const u8 sChocoPunchDescription[] = _(
+    "A punch is thrown at sweet\n"
+    "speed to strike first.");
+	
+static const u8 sSqueezeDescription[] = _(
+    "Peelings, etc. wrap the foe\n"
+    BINDING_TURNS" times.");
+	
+static const u8 sPieAttackDescription[] = _(
+    "Searches out weak spots,\n"
+    "then strikes the next turn.");
+
+static const u8 sOrangeWaveDescription[] = _(
+    "A weak jolt of citric energy\n"
+    "that paralyzes the foe.");
+	
+static const u8 sOrangeBoltDescription[] = _(
+    "A strong orangey attack\n"
+    "that may paralyze the foe.");
+
+static const u8 sOrangeCrushDescription[] = _(
+    "An orangey attack that may\n"
+    "cause paralysis.");
+	
+static const u8 sZestDescription[] = _(
+    "The user zests for 2 turns,\n"
+    "restoring HP and status.");
+	
+static const u8 sAppleTailDescription[] = _(
+    "Attacks with an apple-hard\n"
+    "tail. May lower Defense.");
+
+static const u8 sIceCreamDescription[] = _(
+    "Hits the foe with an icewine\n"
+#if B_USE_FROSTBITE == TRUE
+    "beam. May cause frostbite.");
+#else
+    "beam that may freeze it.");
+#endif
+
+static const u8 sBrainFreezeDescription[] = _(
+    "Hits the foe with an icewine\n"
+#if B_USE_FROSTBITE == TRUE
+    "storm. May cause frostbite.");
+#else
+    "storm that may freeze it.");
+#endif
+
+static const u8 sBananaWingDescription[] = _(
+    "Strikes the foe with ripe\n"
+    "wings spread wide.");
+	
+static const u8 sMagicClawDescription[] = _(
+    "Slashes the foe with rosy\n"
+    "fruit claws.");
+	
+/* End fake moves */
 
 #undef BINDING_TURNS
 
@@ -4099,4 +4163,19 @@ const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
     [MOVE_MAGICAL_TORQUE - 1] = sMagicalTorqueDescription,
     [MOVE_PSYBLADE - 1] = sPsybladeDescription,
     [MOVE_HYDRO_STEAM - 1] = sHydroSteamDescription,
+	/* Fake moves */
+    [MOVE_FUDGE_SLAP - 1] = sFudgeSlapDescription,
+	[MOVE_CHOCO_PUNCH - 1] = sChocoPunchDescription,
+	[MOVE_SQUEEZE - 1] = sSqueezeDescription,
+	[MOVE_PIE_ATTACK - 1] = sPieAttackDescription,
+	[MOVE_ORANGE_WAVE - 1] = sOrangeWaveDescription,
+	[MOVE_ORANGE_BOLT - 1] = sOrangeBoltDescription,
+	[MOVE_ORANGE_CRUSH - 1] = sOrangeCrushDescription,
+	[MOVE_ZEST - 1] = sZestDescription,
+	[MOVE_APPLE_TAIL - 1] = sAppleTailDescription,
+	[MOVE_ICE_CREAM - 1] = sIceCreamDescription,
+	[MOVE_BRAIN_FREEZE - 1] = sBrainFreezeDescription,
+	[MOVE_BANANA_WING - 1] = sBananaWingDescription,
+	[MOVE_MAGIC_CLAW - 1] = sMagicClawDescription,
+	/* End fake moves */
 };

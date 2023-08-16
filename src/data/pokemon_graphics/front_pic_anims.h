@@ -9567,6 +9567,20 @@ static const union AnimCmd sAnim_Phancero_1[] =
     ANIMCMD_END,
 };
 
+static const union AnimCmd sAnim_Cottonbun_1[] =
+{
+    ANIMCMD_FRAME(1, 35),
+    ANIMCMD_FRAME(0, 10),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Chocobun_1[] =
+{
+    ANIMCMD_FRAME(0, 15),
+    ANIMCMD_FRAME(1, 20),
+    ANIMCMD_FRAME(0, 15),
+    ANIMCMD_END,
+};
 
 // End Fakemon
 
@@ -11700,6 +11714,8 @@ SINGLE_ANIMATION(Jungela);
 SINGLE_ANIMATION(Marillugma);
 SINGLE_ANIMATION(Azumargo);
 SINGLE_ANIMATION(Phancero);
+SINGLE_ANIMATION(Cottonbun);
+SINGLE_ANIMATION(Chocobun);
 // End Fakemon
 
 const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
@@ -12626,6 +12642,8 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
 	[SPECIES_MARILLUGMA] = sAnims_Marillugma,
 	[SPECIES_AZUMARGO] = sAnims_Azumargo,
 	[SPECIES_PHANCERO] = sAnims_Phancero,
+	[SPECIES_COTTONBUN] = sAnims_Cottonbun,
+	[SPECIES_CHOCOBUN] = sAnims_Chocobun,
 // End Fakemon
     [SPECIES_VENUSAUR_MEGA] = sAnims_VenusaurMega,
     [SPECIES_CHARIZARD_MEGA_X] = sAnims_CHARIZARD_MEGA_X,

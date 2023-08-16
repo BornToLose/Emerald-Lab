@@ -922,6 +922,8 @@ const u8 gSpeciesNames[][POKEMON_NAME_LENGTH + 1] = {
 	[SPECIES_MARILLUGMA] = _("Marillugma"),
 	[SPECIES_AZUMARGO] = _("Azumargo"),
 	[SPECIES_PHANCERO] = _("Phancero"),
+	[SPECIES_COTTONBUN] = _("Cottonbun"),
+	[SPECIES_CHOCOBUN] = _("Chocobun"),
 // End Fakemon
 
     // Megas

@@ -7056,5 +7056,18 @@ const u32 gMonShinyPalette_Phancero[] = INCBIN_U32("graphics/pokemon/phancero/sh
 const u8 gMonIcon_Phancero[] = INCBIN_U8("graphics/pokemon/phancero/icon.4bpp");
 const u8 gMonFootprint_Phancero[] = INCBIN_U8("graphics/pokemon/phancero/footprint.1bpp");
 
+const u32 gMonFrontPic_Cottonbun[] = INCBIN_U32("graphics/pokemon/cottonbun/anim_front.4bpp.lz");
+const u32 gMonBackPic_Cottonbun[] = INCBIN_U32("graphics/pokemon/cottonbun/back.4bpp.lz");
+const u32 gMonPalette_Cottonbun[] = INCBIN_U32("graphics/pokemon/cottonbun/normal.gbapal.lz");
+const u32 gMonShinyPalette_Cottonbun[] = INCBIN_U32("graphics/pokemon/cottonbun/shiny.gbapal.lz");
+const u8 gMonIcon_Cottonbun[] = INCBIN_U8("graphics/pokemon/cottonbun/icon.4bpp");
+const u8 gMonFootprint_Cottonbun[] = INCBIN_U8("graphics/pokemon/cottonbun/footprint.1bpp");
+
+const u32 gMonFrontPic_Chocobun[] = INCBIN_U32("graphics/pokemon/chocobun/anim_front.4bpp.lz");
+const u32 gMonBackPic_Chocobun[] = INCBIN_U32("graphics/pokemon/chocobun/back.4bpp.lz");
+const u32 gMonPalette_Chocobun[] = INCBIN_U32("graphics/pokemon/chocobun/normal.gbapal.lz");
+const u32 gMonShinyPalette_Chocobun[] = INCBIN_U32("graphics/pokemon/chocobun/shiny.gbapal.lz");
+const u8 gMonIcon_Chocobun[] = INCBIN_U8("graphics/pokemon/chocobun/icon.4bpp");
+const u8 gMonFootprint_Chocobun[] = INCBIN_U8("graphics/pokemon/chocobun/footprint.1bpp");
 
 // End Fakemon

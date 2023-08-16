@@ -948,6 +948,8 @@ const u8 *const gMonIconTable[] =
 	[SPECIES_MARILLUGMA] = gMonIcon_Marillugma,
 	[SPECIES_AZUMARGO] = gMonIcon_Azumargo,
 	[SPECIES_PHANCERO] = gMonIcon_Phancero,
+	[SPECIES_COTTONBUN] = gMonIcon_Cottonbun,
+	[SPECIES_CHOCOBUN] = gMonIcon_Chocobun,
 // End Fakemon
     [SPECIES_VENUSAUR_MEGA] = gMonIcon_VenusaurMega,
     [SPECIES_CHARIZARD_MEGA_X] = gMonIcon_CharizardMegaX,
@@ -2248,6 +2250,8 @@ const u8 gMonIconPaletteIndices[] =
 	[SPECIES_MARILLUGMA] = 0,
 	[SPECIES_AZUMARGO] = 0,
 	[SPECIES_PHANCERO] = 1,
+	[SPECIES_COTTONBUN] = 0,
+	[SPECIES_CHOCOBUN] = 0,
 // End Fakemon
     [SPECIES_VENUSAUR_MEGA] = 1,
     [SPECIES_CHARIZARD_MEGA_X] = 0,

@@ -7125,6 +7125,20 @@ extern const u32 gMonPalette_Phancero[];
 extern const u8 gMonIcon_Phancero[];
 extern const u8 gMonFootprint_Phancero[];
 
+extern const u32 gMonFrontPic_Cottonbun[];
+extern const u32 gMonBackPic_Cottonbun[];
+extern const u32 gMonShinyPalette_Cottonbun[];
+extern const u32 gMonPalette_Cottonbun[];
+extern const u8 gMonIcon_Cottonbun[];
+extern const u8 gMonFootprint_Cottonbun[];
+
+extern const u32 gMonFrontPic_Chocobun[];
+extern const u32 gMonBackPic_Chocobun[];
+extern const u32 gMonShinyPalette_Chocobun[];
+extern const u32 gMonPalette_Chocobun[];
+extern const u8 gMonIcon_Chocobun[];
+extern const u8 gMonFootprint_Chocobun[];
+
 // End Fakemon
 
 // trainer sprites

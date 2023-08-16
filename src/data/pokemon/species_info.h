@@ -21159,6 +21159,52 @@ const struct SpeciesInfo gSpeciesInfo[] =
 		.bodyColor = BODY_COLOR_PURPLE,
 		.noFlip = FALSE,
 	},
+	
+	[SPECIES_COTTONBUN] =
+	{
+		.baseHP        = 60,
+		.baseAttack    = 70,
+		.baseDefense   = 70,
+		.baseSpeed     = 65,
+		.baseSpAttack  = 65,
+		.baseSpDefense = 70,
+		.types = { TYPE_CHOCOLATE, TYPE_CHOCOLATE },
+		.catchRate = 145,
+		.expYield = 150,
+		.evYield_Attack  = 2,
+		.genderRatio = PERCENT_FEMALE(50),
+		.eggCycles = 2,
+		.friendship = 35,
+		.growthRate = GROWTH_SLOW,
+		.eggGroups = { EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED},
+		.abilities = {ABILITY_PRESSURE, ABILITY_NONE, ABILITY_UNNERVE},
+		.bodyColor = BODY_COLOR_BROWN,
+		.noFlip = FALSE,
+		.flags = SPECIES_FLAG_LEGENDARY,
+	},
+	
+	[SPECIES_CHOCOBUN] =
+	{
+		.baseHP        = 120,
+		.baseAttack    = 120,
+		.baseDefense   = 90,
+		.baseSpeed     = 100,
+		.baseSpAttack  = 70,
+		.baseSpDefense = 100,
+		.types = { TYPE_CHOCOLATE, TYPE_CHOCOLATE},
+		.catchRate = 45,
+		.expYield = 218,
+		.evYield_Attack  = 3,
+		.genderRatio = PERCENT_FEMALE(50),
+		.eggCycles = 120,
+		.friendship = 35,
+		.growthRate = GROWTH_SLOW,
+		.eggGroups = { EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED},
+		.abilities = {ABILITY_PRESSURE, ABILITY_NONE, ABILITY_UNNERVE},
+		.bodyColor = BODY_COLOR_BROWN,
+		.noFlip = FALSE,
+		.flags = SPECIES_FLAG_LEGENDARY,
+	},
 
 //	End Fakemon
 

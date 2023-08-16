@@ -332,6 +332,13 @@ const u8 gTypeNames[NUMBER_OF_MON_TYPES][TYPE_NAME_LENGTH + 1] =
     [TYPE_DRAGON] = _("Dragon"),
     [TYPE_DARK] = _("Dark"),
     [TYPE_FAIRY] = _("Fairy"),
+    [TYPE_APPLE] = _("Apple"),
+    [TYPE_ORANGE] = _("Orange"),
+	[TYPE_BANANA] = _("Banana"),
+    [TYPE_LIME] = _("Lime"),
+    [TYPE_GRAPE] = _("Grape"),
+	[TYPE_RASPBERRY] = _("Raspbr"),
+    [TYPE_CHOCOLATE] = _("Choco"),
 };
 
 // This is a factor in how much money you get for beating a trainer.

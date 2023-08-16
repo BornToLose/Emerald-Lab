@@ -915,6 +915,8 @@ const u8 *const gMonFootprintTable[] =
 	[SPECIES_MARILLUGMA] = gMonFootprint_Marillugma,
 	[SPECIES_AZUMARGO] = gMonFootprint_Azumargo,
 	[SPECIES_PHANCERO] = gMonFootprint_Phancero,
+	[SPECIES_COTTONBUN] = gMonFootprint_Cottonbun,
+	[SPECIES_CHOCOBUN] = gMonFootprint_Chocobun,
 // End Fakemon
     [SPECIES_EGG] = gMonFootprint_Bulbasaur,
 };

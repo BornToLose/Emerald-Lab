@@ -801,6 +801,10 @@ static const u8 sText_AtkTrappedDef[] = _("{B_ATK_NAME_WITH_PREFIX} trapped\nthe
 static const u8 sText_MirrorHerbCopied[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX} used its {B_LAST_ITEM}\nto mirror its opponent's stat changes!");
 static const u8 sText_PkmnItemMelted[] = _("{B_ATK_NAME_WITH_PREFIX} corroded\n{B_DEF_NAME_WITH_PREFIX}'s {B_LAST_ITEM}!");
 
+// Fake battle strings
+
+static const u8 sText_PkmnIsBaking[] = _("{B_ATK_NAME_WITH_PREFIX} is baking!");
+
 const u8 *const gBattleStringsTable[BATTLESTRINGS_COUNT] =
 {
     [STRINGID_PKMNITEMMELTED - BATTLESTRINGS_TABLE_START] = sText_PkmnItemMelted,
@@ -1456,6 +1460,9 @@ const u8 *const gBattleStringsTable[BATTLESTRINGS_COUNT] =
     [STRINGID_PKMNFROSTBITEHEALED - BATTLESTRINGS_TABLE_START] = sText_PkmnFrostbiteHealed,
     [STRINGID_PKMNFROSTBITEHEALED2 - BATTLESTRINGS_TABLE_START] = sText_PkmnFrostbiteHealed2,
     [STRINGID_PKMNFROSTBITEHEALEDBY - BATTLESTRINGS_TABLE_START] = sText_PkmnFrostbiteHealedBy,
+	
+	// Fake battle strings
+    [STRINGID_PKMNISBAKING - BATTLESTRINGS_TABLE_START] = sText_PkmnIsBaking,
 };
 
 const u16 gTrainerUsedItemStringIds[] =
@@ -1696,6 +1703,7 @@ const u16 gFirstTurnOfTwoStringIds[] =
     [B_MSG_TURN1_FREEZE_SHOCK]  = STRINGID_CLOAKEDINAFREEZINGLIGHT,
     [B_MSG_TURN1_SKY_DROP]      = STRINGID_PKMNTOOKTARGETHIGH,
     [B_MSG_TURN1_METEOR_BEAM]   = STRINGID_METEORBEAMCHARGING,
+    [B_MSG_TURN1_PIE_ATTACK]    = STRINGID_PKMNISBAKING,
 };
 
 // Index copied from move's index in sTrappingMoves
@@ -1997,25 +2005,32 @@ static const u8 sText_ApostropheS[] = _("'s");
 // For displaying names of invalid moves
 static const u8 sATypeMove_Table[NUMBER_OF_MON_TYPES][17] =
 {
-    [TYPE_NORMAL]   = _("a NORMAL move"),
-    [TYPE_FIGHTING] = _("a FIGHTING move"),
-    [TYPE_FLYING]   = _("a FLYING move"),
-    [TYPE_POISON]   = _("a POISON move"),
-    [TYPE_GROUND]   = _("a GROUND move"),
-    [TYPE_ROCK]     = _("a ROCK move"),
-    [TYPE_BUG]      = _("a BUG move"),
-    [TYPE_GHOST]    = _("a GHOST move"),
-    [TYPE_STEEL]    = _("a STEEL move"),
-    [TYPE_MYSTERY]  = _("a ??? move"),
-    [TYPE_FIRE]     = _("a FIRE move"),
-    [TYPE_WATER]    = _("a WATER move"),
-    [TYPE_GRASS]    = _("a GRASS move"),
-    [TYPE_ELECTRIC] = _("an ELECTRIC move"),
-    [TYPE_PSYCHIC]  = _("a PSYCHIC move"),
-    [TYPE_ICE]      = _("an ICE move"),
-    [TYPE_DRAGON]   = _("a DRAGON move"),
-    [TYPE_DARK]     = _("a DARK move"),
-    [TYPE_FAIRY]    = _("a FAIRY move"),
+    [TYPE_NORMAL]    = _("a NORMAL move"),
+    [TYPE_FIGHTING]  = _("a FIGHTING move"),
+    [TYPE_FLYING]    = _("a FLYING move"),
+    [TYPE_POISON]    = _("a POISON move"),
+    [TYPE_GROUND]    = _("a GROUND move"),
+    [TYPE_ROCK]      = _("a ROCK move"),
+    [TYPE_BUG]       = _("a BUG move"),
+    [TYPE_GHOST]     = _("a GHOST move"),
+    [TYPE_STEEL]     = _("a STEEL move"),
+    [TYPE_MYSTERY]   = _("a ??? move"),
+    [TYPE_FIRE]      = _("a FIRE move"),
+    [TYPE_WATER]     = _("a WATER move"),
+    [TYPE_GRASS]     = _("a GRASS move"),
+    [TYPE_ELECTRIC]  = _("an ELECTRIC move"),
+    [TYPE_PSYCHIC]   = _("a PSYCHIC move"),
+    [TYPE_ICE]       = _("an ICE move"),
+    [TYPE_DRAGON]    = _("a DRAGON move"),
+    [TYPE_DARK]      = _("a DARK move"),
+    [TYPE_FAIRY]     = _("a FAIRY move"),
+    [TYPE_APPLE]     = _("an APPLE move"),
+    [TYPE_ORANGE]    = _("an ORANGE move"),
+	[TYPE_BANANA]    = _("a BANANA move"),
+    [TYPE_LIME]      = _("a LIME move"),
+    [TYPE_GRAPE]     = _("a GRAPE move"),
+	[TYPE_RASPBERRY] = _("a RASPBERRY move"),
+    [TYPE_CHOCOLATE] = _("a CHOCOLATE move"),
 };
 
 const u8 gText_BattleTourney[] = _("BATTLE TOURNEY");
