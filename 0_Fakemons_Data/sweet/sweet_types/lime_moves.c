@@ -168,44 +168,42 @@ static const u16 sTrappingMoves[NUM_TRAPPING_MOVES] =
 // src/data/battle_moves.h
 // ----------
 
-[MOVE_SQUEEZE] =
-{
-	#if B_UPDATED_MOVE_DATA >= GEN_5
+	[MOVE_SQUEEZE] =
+	{
+		#if B_UPDATED_MOVE_DATA >= GEN_5
+			.accuracy = 90,
+		#else
+			.accuracy = 85,
+		#endif
+		.effect = EFFECT_TRAP,
+		.power = 15,
+		.type = TYPE_LIME,
+		.pp = 20,
+		.secondaryEffectChance = 100,
+		.target = MOVE_TARGET_SELECTED,
+		.priority = 0,
+		.split = SPLIT_PHYSICAL,
+		.zMoveEffect = Z_EFFECT_NONE,
+        .makesContact = TRUE,
+	},
+	
+	[MOVE_PIE_ATTACK] =
+	{
+		.effect = EFFECT_TWO_TURNS_ATTACK,
+		.power = 140,
+		.type = TYPE_LIME,
 		.accuracy = 90,
-	#else
-		.accuracy = 85,
-	#endif
-	.effect = EFFECT_TRAP,
-	.power = 15,
-	.type = TYPE_LIME,
-	.pp = 20,
-	.secondaryEffectChance = 100,
-	.target = MOVE_TARGET_SELECTED,
-	.priority = 0,
-	.flags = FLAG_MAKES_CONTACT | FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED,
-	.split = SPLIT_PHYSICAL,
-	.zMoveEffect = Z_EFFECT_NONE,
-},
-
-[MOVE_PIE_ATTACK] =
-{
-	#if B_UPDATED_MOVE_DATA >= GEN_5
-		.flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_SHEER_FORCE_BOOST,
-	#else
-		.flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED | FLAG_SHEER_FORCE_BOOST,
-	#endif
-	.effect = EFFECT_TWO_TURNS_ATTACK,
-	.power = 140,
-	.type = TYPE_LIME,
-	.accuracy = 90,
-	.pp = 5,
-	.secondaryEffectChance = 30,
-	.target = MOVE_TARGET_SELECTED,
-	.priority = 0,
-	.split = SPLIT_PHYSICAL,
-	.argument = MOVE_EFFECT_FLINCH,
-	.zMoveEffect = Z_EFFECT_NONE,
-},
+		.pp = 5,
+		.secondaryEffectChance = 30,
+		.target = MOVE_TARGET_SELECTED,
+		.priority = 0,
+		.split = SPLIT_PHYSICAL,
+		.argument = MOVE_EFFECT_FLINCH,
+		.zMoveEffect = Z_EFFECT_NONE,
+        .sheerForceBoost = TRUE,
+        .sleepTalkBanned = TRUE,
+        .instructBanned = TRUE,
+	},
 	
 
 // ----------

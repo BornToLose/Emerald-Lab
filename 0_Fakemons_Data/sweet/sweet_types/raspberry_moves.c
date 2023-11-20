@@ -93,21 +93,21 @@ MagicClawFireSpiral:
 // ----------
 // src/data/battle_moves.h
 // ----------
-
-[MOVE_MAGIC_CLAW] =
-{
-	.effect = EFFECT_HIT,
-	.power = 80,
-	.type = TYPE_RASPBERRY,
-	.accuracy = 100,
-	.pp = 15,
-	.secondaryEffectChance = 0,
-	.target = MOVE_TARGET_SELECTED,
-	.priority = 0,
-	.flags = FLAG_MAKES_CONTACT | FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED,
-	.split = SPLIT_PHYSICAL,
-	.zMoveEffect = Z_EFFECT_NONE,
-},
+	
+	[MOVE_MAGIC_CLAW] =
+    {
+        .effect = EFFECT_HIT,
+        .power = 80,
+        .type = TYPE_RASPBERRY,
+        .accuracy = 100,
+        .pp = 15,
+        .secondaryEffectChance = 0,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 0,
+        .split = SPLIT_PHYSICAL,
+        .zMoveEffect = Z_EFFECT_NONE,
+        .makesContact = TRUE,
+    },
 	
 
 // ----------

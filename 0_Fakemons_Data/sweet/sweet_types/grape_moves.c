@@ -128,53 +128,54 @@ BrainFreezeIceCrystals:
 // src/data/battle_moves.h
 // ----------
 
-[MOVE_ICE_CREAM] =
-{
-	#if B_UPDATED_MOVE_DATA >= GEN_6
-		.power = 90,
-	#else
-		.power = 95,
-	#endif
-	// The following effect is also relevant in battle_pike.c
-	// If you cherry-pick this to use something other than the config, make sure to update it there too
-	#if B_USE_FROSTBITE == TRUE
-		.effect = EFFECT_FROSTBITE_HIT,
-	#else
-		.effect = EFFECT_FREEZE_HIT,
-	#endif
-	.type = TYPE_GRAPE,
-	.accuracy = 100,
-	.pp = 10,
-	.secondaryEffectChance = 10,
-	.target = MOVE_TARGET_SELECTED,
-	.priority = 0,
-	.flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_SHEER_FORCE_BOOST,
-	.split = SPLIT_SPECIAL,
-	.zMoveEffect = Z_EFFECT_NONE,
-},
-
-[MOVE_BRAIN_FREEZE] =
-{
-	#if B_UPDATED_MOVE_DATA >= GEN_6
-		.power = 110,
-	#else
-		.power = 120,
-	#endif
-	#if B_USE_FROSTBITE == TRUE
-		.effect = EFFECT_FROSTBITE_HIT,
-	#else
-		.effect = EFFECT_FREEZE_HIT,
-	#endif
-	.type = TYPE_GRAPE,
-	.accuracy = 70,
-	.pp = 5,
-	.secondaryEffectChance = 10,
-	.target = MOVE_TARGET_BOTH,
-	.priority = 0,
-	.flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_SHEER_FORCE_BOOST | FLAG_WIND_MOVE,
-	.split = SPLIT_SPECIAL,
-	.zMoveEffect = Z_EFFECT_NONE,
-},
+	[MOVE_ICE_CREAM] =
+	{
+		#if B_UPDATED_MOVE_DATA >= GEN_6
+			.power = 90,
+		#else
+			.power = 95,
+		#endif
+		// The following effect is also relevant in battle_pike.c
+		// If you cherry-pick this to use something other than the config, make sure to update it there too
+		#if B_USE_FROSTBITE == TRUE
+			.effect = EFFECT_FROSTBITE_HIT,
+		#else
+			.effect = EFFECT_FREEZE_HIT,
+		#endif
+		.type = TYPE_GRAPE,
+		.accuracy = 100,
+		.pp = 10,
+		.secondaryEffectChance = 10,
+		.target = MOVE_TARGET_SELECTED,
+		.priority = 0,
+		.split = SPLIT_SPECIAL,
+		.zMoveEffect = Z_EFFECT_NONE,
+        .sheerForceBoost = TRUE,
+	},
+	
+	[MOVE_BRAIN_FREEZE] =
+	{
+		#if B_UPDATED_MOVE_DATA >= GEN_6
+			.power = 110,
+		#else
+			.power = 120,
+		#endif
+		#if B_USE_FROSTBITE == TRUE
+			.effect = EFFECT_FROSTBITE_HIT,
+		#else
+			.effect = EFFECT_FREEZE_HIT,
+		#endif
+		.type = TYPE_GRAPE,
+		.accuracy = 70,
+		.pp = 5,
+		.secondaryEffectChance = 10,
+		.target = MOVE_TARGET_BOTH,
+		.priority = 0,
+		.split = SPLIT_SPECIAL,
+		.zMoveEffect = Z_EFFECT_NONE,
+        .sheerForceBoost = TRUE,
+        .windMove = TRUE,
+	},
 
 
 // ----------

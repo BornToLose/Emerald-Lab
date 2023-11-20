@@ -87,7 +87,7 @@ Move_CHOCO_PUNCH:
 // src/data/battle_moves.h
 // ----------
 
-[MOVE_FUDGE_SLAP] =
+	[MOVE_FUDGE_SLAP] =
     {
         .effect = EFFECT_ACCURACY_DOWN_HIT,
         .power = 20,
@@ -97,11 +97,12 @@ Move_CHOCO_PUNCH:
         .secondaryEffectChance = 100,
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
-        .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_SHEER_FORCE_BOOST,
         .split = SPLIT_SPECIAL,
         .zMoveEffect = Z_EFFECT_NONE,
+        .sheerForceBoost = TRUE,
     },
-[MOVE_CHOCO_PUNCH] =
+	
+	[MOVE_CHOCO_PUNCH] =
     {
         .effect = EFFECT_HIT,
         .power = 40,
@@ -111,9 +112,10 @@ Move_CHOCO_PUNCH:
         .secondaryEffectChance = 0,
         .target = MOVE_TARGET_SELECTED,
         .priority = 1,
-        .flags = FLAG_MAKES_CONTACT | FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED | FLAG_IRON_FIST_BOOST,
         .split = SPLIT_PHYSICAL,
         .zMoveEffect = Z_EFFECT_NONE,
+        .makesContact = TRUE,
+        .punchingMove = TRUE,
     },
 
 // ----------

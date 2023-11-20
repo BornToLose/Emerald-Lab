@@ -71,9 +71,10 @@ Move_BANANA_WING:
 	.secondaryEffectChance = 10,
 	.target = MOVE_TARGET_SELECTED,
 	.priority = 0,
-	.flags = FLAG_MAKES_CONTACT | FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED | FLAG_SHEER_FORCE_BOOST,
 	.split = SPLIT_PHYSICAL,
 	.zMoveEffect = Z_EFFECT_NONE,
+	.makesContact = TRUE,
+	.sheerForceBoost = TRUE,
 },
 	
 

@@ -226,81 +226,82 @@ void AnimThunderWave(struct Sprite *sprite)
 // src/data/battle_moves.h
 // ----------
 
-[MOVE_ORANGE_WAVE] =
-{
-	#if B_UPDATED_MOVE_DATA >= GEN_7
-		.accuracy = 90,
-	#else
+	[MOVE_ORANGE_WAVE] =
+	{
+		#if B_UPDATED_MOVE_DATA >= GEN_7
+			.accuracy = 90,
+		#else
+			.accuracy = 100,
+		#endif
+		.effect = EFFECT_PARALYZE,
+		.power = 0,
+		.type = TYPE_ORANGE,
+		.pp = 20,
+		.secondaryEffectChance = 0,
+		.target = MOVE_TARGET_SELECTED,
+		.priority = 0,
+		.split = SPLIT_STATUS,
+		.zMoveEffect = Z_EFFECT_SPDEF_UP_1,
+        .magicCoatAffected = TRUE,
+	},
+
+	[MOVE_ORANGE_BOLT] =
+	{
+		#if B_UPDATED_MOVE_DATA >= GEN_6
+			.power = 90,
+		#else
+			.power = 95,
+		#endif
+		.effect = EFFECT_PARALYZE_HIT,
+		.type = TYPE_ORANGE,
 		.accuracy = 100,
-	#endif
-	.effect = EFFECT_PARALYZE,
-	.power = 0,
-	.type = TYPE_ORANGE,
-	.pp = 20,
-	.secondaryEffectChance = 0,
-	.target = MOVE_TARGET_SELECTED,
-	.priority = 0,
-	.flags = FLAG_PROTECT_AFFECTED | FLAG_MAGIC_COAT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED,
-	.split = SPLIT_STATUS,
-	.zMoveEffect = Z_EFFECT_SPDEF_UP_1,
-},
+		.pp = 15,
+		.secondaryEffectChance = 10,
+		.target = MOVE_TARGET_SELECTED,
+		.priority = 0,
+		.split = SPLIT_SPECIAL,
+		.zMoveEffect = Z_EFFECT_NONE,
+        .sheerForceBoost = TRUE,
+	},
 
-[MOVE_ORANGE_BOLT] =
-{
-	#if B_UPDATED_MOVE_DATA >= GEN_6
-		.power = 90,
-	#else
-		.power = 95,
-	#endif
-	.effect = EFFECT_PARALYZE_HIT,
-	.type = TYPE_ORANGE,
-	.accuracy = 100,
-	.pp = 15,
-	.secondaryEffectChance = 10,
-	.target = MOVE_TARGET_SELECTED,
-	.priority = 0,
-	.flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_SHEER_FORCE_BOOST,
-	.split = SPLIT_SPECIAL,
-	.zMoveEffect = Z_EFFECT_NONE,
-},
-
-[MOVE_ORANGE_CRUSH] =
-{
-	#if B_UPDATED_MOVE_DATA >= GEN_6
-		.power = 110,
-	#else
-		.power = 120,
-	#endif
-	.effect = EFFECT_THUNDER,
-	.type = TYPE_ORANGE,
-	.accuracy = 70,
-	.pp = 10,
-	.secondaryEffectChance = 30,
-	.target = MOVE_TARGET_SELECTED,
-	.priority = 0,
-	.flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_SHEER_FORCE_BOOST | FLAG_DMG_IN_AIR,
-	.split = SPLIT_SPECIAL,
-	.zMoveEffect = Z_EFFECT_NONE,
-},
-
-[MOVE_ZEST] =
-{
-	#if B_UPDATED_MOVE_DATA >= GEN_9
-		.pp = 5,
-	#else
+	[MOVE_ORANGE_CRUSH] =
+	{
+		#if B_UPDATED_MOVE_DATA >= GEN_6
+			.power = 110,
+		#else
+			.power = 120,
+		#endif
+		.effect = EFFECT_THUNDER,
+		.type = TYPE_ORANGE,
+		.accuracy = 70,
 		.pp = 10,
-	#endif
-	.effect = EFFECT_REST,
-	.power = 0,
-	.type = TYPE_ORANGE,
-	.accuracy = 0,
-	.secondaryEffectChance = 0,
-	.target = MOVE_TARGET_USER,
-	.priority = 0,
-	.flags = FLAG_SNATCH_AFFECTED,
-	.split = SPLIT_STATUS,
-	.zMoveEffect = Z_EFFECT_RESET_STATS,
-},
+		.secondaryEffectChance = 30,
+		.target = MOVE_TARGET_SELECTED,
+		.priority = 0,
+		.split = SPLIT_SPECIAL,
+		.zMoveEffect = Z_EFFECT_NONE,
+        .sheerForceBoost = TRUE,
+        .damagesAirborne = TRUE,
+	},
+
+	[MOVE_ZEST] =
+	{
+		#if B_UPDATED_MOVE_DATA >= GEN_9
+			.pp = 5,
+		#else
+			.pp = 10,
+		#endif
+		.effect = EFFECT_REST,
+		.power = 0,
+		.type = TYPE_ORANGE,
+		.accuracy = 0,
+		.secondaryEffectChance = 0,
+		.target = MOVE_TARGET_USER,
+		.priority = 0,
+		.split = SPLIT_STATUS,
+		.zMoveEffect = Z_EFFECT_RESET_STATS,
+        .snatchAffected = TRUE,
+	},
 
 
 // ----------
