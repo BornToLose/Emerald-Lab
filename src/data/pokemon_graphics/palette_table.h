@@ -1342,6 +1342,15 @@ const struct CompressedSpritePalette gMonPaletteTable[NUM_SPECIES + 1] =
     SPECIES_PAL(ENAMORUS_THERIAN, gMonPalette_EnamorusTherian),
     SPECIES_PAL(BASCULEGION_FEMALE, gMonPalette_BasculegionFemale),
 #endif
+	// Fakemon forms
+	SPECIES_PAL(KECLEON_RED, gMonPalette_KecleonRed),
+	SPECIES_PAL(KECLEON_BROWN, gMonPalette_KecleonBrown),
+	SPECIES_PAL(KECLEON_ORANGE, gMonPalette_KecleonOrange),
+	SPECIES_PAL(KECLEON_CYAN, gMonPalette_KecleonCyan),
+	SPECIES_PAL(KECLEON_BLUE, gMonPalette_KecleonBlue),
+	SPECIES_PAL(KECLEON_PURPLE, gMonPalette_KecleonPurple),
+	// End fakemon forms
+
     SPECIES_PAL(EGG, gMonPalette_Egg),
 };
 

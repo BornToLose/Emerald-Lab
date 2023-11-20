@@ -1341,6 +1341,15 @@ const struct CompressedSpritePalette gMonShinyPaletteTable[NUM_SPECIES + 1] =
     SPECIES_SHINY_PAL(BASCULEGION_FEMALE, gMonShinyPalette_BasculegionFemale),
     SPECIES_SHINY_PAL(ENAMORUS_THERIAN, gMonShinyPalette_EnamorusTherian),
 #endif
+	// Fakemon forms
+	SPECIES_SHINY_PAL(KECLEON_RED, gMonPalette_KecleonRed),
+	SPECIES_SHINY_PAL(KECLEON_BROWN, gMonShinyPalette_KecleonBrown),
+	SPECIES_SHINY_PAL(KECLEON_ORANGE, gMonPalette_KecleonOrange),
+	SPECIES_SHINY_PAL(KECLEON_CYAN, gMonPalette_KecleonCyan),
+	SPECIES_SHINY_PAL(KECLEON_BLUE, gMonShinyPalette_KecleonBlue),
+	SPECIES_SHINY_PAL(KECLEON_PURPLE, gMonShinyPalette_KecleonPurple),
+	// End fakemon forms
+
     SPECIES_SHINY_PAL(EGG, gMonPalette_Egg),
 };
 

@@ -1120,6 +1120,14 @@ static const u8 sSpeciesToBackAnimSet[NUM_SPECIES] =
 	[SPECIES_PHANCERO] = BACK_ANIM_H_VIBRATE,
 	[SPECIES_COTTONBUN] = BACK_ANIM_CONCAVE_ARC_SMALL,
 	[SPECIES_CHOCOBUN] = BACK_ANIM_SHRINK_GROW_VIBRATE,
+	
+	// Fakemon forms
+	[SPECIES_KECLEON_RED]                       = BACK_ANIM_H_VIBRATE,
+	[SPECIES_KECLEON_BROWN]                     = BACK_ANIM_H_VIBRATE,
+	[SPECIES_KECLEON_ORANGE]                    = BACK_ANIM_H_VIBRATE,
+	[SPECIES_KECLEON_CYAN]                      = BACK_ANIM_H_VIBRATE,
+	[SPECIES_KECLEON_BLUE]                      = BACK_ANIM_H_VIBRATE,
+	[SPECIES_KECLEON_PURPLE]                    = BACK_ANIM_H_VIBRATE,
 };
 
 // Equivalent to struct YellowFlashData, but doesn't match as a struct

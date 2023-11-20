@@ -7224,4 +7224,30 @@ const u32 gMonShinyPalette_Chocobun[] = INCBIN_U32("graphics/pokemon/chocobun/sh
 const u8 gMonIcon_Chocobun[] = INCBIN_U8("graphics/pokemon/chocobun/icon.4bpp");
 const u8 gMonFootprint_Chocobun[] = INCBIN_U8("graphics/pokemon/chocobun/footprint.1bpp");
 
+// Fakemon forms
+
+const u32 gMonPalette_KecleonRed[] = INCBIN_U32("graphics/pokemon/kecleon/red/normal.gbapal.lz");
+const u32 gMonShinyPalette_KecleonRed[] = INCBIN_U32("graphics/pokemon/kecleon/red/shiny.gbapal.lz");
+const u8 gMonIcon_KecleonRed[] = INCBIN_U8("graphics/pokemon/kecleon/red/icon.4bpp");
+
+const u32 gMonPalette_KecleonBrown[] = INCBIN_U32("graphics/pokemon/kecleon/brown/normal.gbapal.lz");
+const u32 gMonShinyPalette_KecleonBrown[] = INCBIN_U32("graphics/pokemon/kecleon/brown/shiny.gbapal.lz");
+const u8 gMonIcon_KecleonBrown[] = INCBIN_U8("graphics/pokemon/kecleon/brown/icon.4bpp");
+
+const u32 gMonPalette_KecleonOrange[] = INCBIN_U32("graphics/pokemon/kecleon/orange/normal.gbapal.lz");
+const u32 gMonShinyPalette_KecleonOrange[] = INCBIN_U32("graphics/pokemon/kecleon/orange/shiny.gbapal.lz");
+const u8 gMonIcon_KecleonOrange[] = INCBIN_U8("graphics/pokemon/kecleon/orange/icon.4bpp");
+
+const u32 gMonPalette_KecleonCyan[] = INCBIN_U32("graphics/pokemon/kecleon/cyan/normal.gbapal.lz");
+const u32 gMonShinyPalette_KecleonCyan[] = INCBIN_U32("graphics/pokemon/kecleon/cyan/shiny.gbapal.lz");
+const u8 gMonIcon_KecleonCyan[] = INCBIN_U8("graphics/pokemon/kecleon/cyan/icon.4bpp");
+
+const u32 gMonPalette_KecleonBlue[] = INCBIN_U32("graphics/pokemon/kecleon/blue/normal.gbapal.lz");
+const u32 gMonShinyPalette_KecleonBlue[] = INCBIN_U32("graphics/pokemon/kecleon/blue/shiny.gbapal.lz");
+const u8 gMonIcon_KecleonBlue[] = INCBIN_U8("graphics/pokemon/kecleon/blue/icon.4bpp");
+
+const u32 gMonPalette_KecleonPurple[] = INCBIN_U32("graphics/pokemon/kecleon/purple/normal.gbapal.lz");
+const u32 gMonShinyPalette_KecleonPurple[] = INCBIN_U32("graphics/pokemon/kecleon/purple/shiny.gbapal.lz");
+const u8 gMonIcon_KecleonPurple[] = INCBIN_U8("graphics/pokemon/kecleon/purple/icon.4bpp");
+
 // End Fakemon

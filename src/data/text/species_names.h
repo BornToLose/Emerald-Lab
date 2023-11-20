@@ -1348,4 +1348,11 @@ const u8 gSpeciesNames[NUM_SPECIES][POKEMON_NAME_LENGTH + 1] = {
     [SPECIES_CALYREX_SHADOW_RIDER] = _("Calyrex"),
     [SPECIES_BASCULEGION_FEMALE] = _("Bsculegion"),
 #endif
+	//Fakemon forms
+	[SPECIES_KECLEON_RED] = _("Kecleon"),
+	[SPECIES_KECLEON_BROWN] = _("Kecleon"),
+	[SPECIES_KECLEON_ORANGE] = _("Kecleon"),
+	[SPECIES_KECLEON_CYAN] = _("Kecleon"),
+	[SPECIES_KECLEON_BLUE] = _("Kecleon"),
+	[SPECIES_KECLEON_PURPLE] = _("Kecleon"),
 };

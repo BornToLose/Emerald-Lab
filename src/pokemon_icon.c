@@ -1304,6 +1304,15 @@ const u8 *const gMonIconTable[NUM_SPECIES + 1] =
     [SPECIES_ENAMORUS_THERIAN] = gMonIcon_EnamorusTherian,
     [SPECIES_BASCULEGION_FEMALE] = gMonIcon_BasculegionFemale,
 #endif
+	//Fakemon forms
+    [SPECIES_KECLEON_RED] = gMonIcon_KecleonRed,
+	[SPECIES_KECLEON_BROWN] = gMonIcon_KecleonBrown,
+	[SPECIES_KECLEON_ORANGE] = gMonIcon_KecleonOrange,
+	[SPECIES_KECLEON_CYAN] = gMonIcon_KecleonCyan,
+	[SPECIES_KECLEON_BLUE] = gMonIcon_KecleonBlue,
+	[SPECIES_KECLEON_PURPLE] = gMonIcon_KecleonPurple,
+	//End fakemon forms
+	
     [SPECIES_EGG] = gMonIcon_Egg,
 };
 
@@ -2547,6 +2556,15 @@ const u8 gMonIconPaletteIndices[] =
     [SPECIES_ENAMORUS_THERIAN] = 1,
     [SPECIES_BASCULEGION_FEMALE] = 0,
 #endif
+	// Fakemon forms
+	[SPECIES_KECLEON_RED] = 0,
+	[SPECIES_KECLEON_BROWN] = 2,
+	[SPECIES_KECLEON_ORANGE] = 0,
+	[SPECIES_KECLEON_CYAN] = 0,
+	[SPECIES_KECLEON_BLUE] = 0,
+	[SPECIES_KECLEON_PURPLE] = 2,
+	// End fakemon forms
+	
     [SPECIES_EGG] = 1,
 };
 

@@ -7293,6 +7293,30 @@ extern const u32 gMonPalette_Chocobun[];
 extern const u8 gMonIcon_Chocobun[];
 extern const u8 gMonFootprint_Chocobun[];
 
+extern const u32 gMonShinyPalette_KecleonRed[];
+extern const u32 gMonPalette_KecleonRed[];
+extern const u8 gMonIcon_KecleonRed[];
+
+extern const u32 gMonShinyPalette_KecleonBrown[];
+extern const u32 gMonPalette_KecleonBrown[];
+extern const u8 gMonIcon_KecleonBrown[];
+
+extern const u32 gMonShinyPalette_KecleonOrange[];
+extern const u32 gMonPalette_KecleonOrange[];
+extern const u8 gMonIcon_KecleonOrange[];
+
+extern const u32 gMonShinyPalette_KecleonCyan[];
+extern const u32 gMonPalette_KecleonCyan[];
+extern const u8 gMonIcon_KecleonCyan[];
+
+extern const u32 gMonShinyPalette_KecleonBlue[];
+extern const u32 gMonPalette_KecleonBlue[];
+extern const u8 gMonIcon_KecleonBlue[];
+
+extern const u32 gMonShinyPalette_KecleonPurple[];
+extern const u32 gMonPalette_KecleonPurple[];
+extern const u8 gMonIcon_KecleonPurple[];
+
 // End Fakemon
 
 // trainer sprites

@@ -154,62 +154,62 @@
               {
                 "min_level": 3,
                 "max_level": 60,
-                "species": "SPECIES_UNOWN"
+                "species": "SPECIES_KECLEON_RED"
               },
               {
                 "min_level": 3,
                 "max_level": 60,
-                "species": "SPECIES_UNOWN"
+                "species": "SPECIES_KECLEON_BROWN"
               },
               {
                 "min_level": 4,
                 "max_level": 70,
-                "species": "SPECIES_UNOWN"
+                "species": "SPECIES_KECLEON_ORANGE"
               },
               {
                 "min_level": 4,
                 "max_level": 70,
-                "species": "SPECIES_UNOWN"
+                "species": "SPECIES_KECLEON_CYAN"
               },
               {
                 "min_level": 3,
                 "max_level": 60,
-                "species": "SPECIES_UNOWN"
+                "species": "SPECIES_KECLEON_ORANGE"
               },
               {
                 "min_level": 4,
                 "max_level": 70,
-                "species": "SPECIES_UNOWN"
+                "species": "SPECIES_KECLEON_CYAN"
               },
               {
                 "min_level": 3,
                 "max_level": 60,
-                "species": "SPECIES_UNOWN"
+                "species": "SPECIES_KECLEON"
               },
               {
                 "min_level": 3,
                 "max_level": 60,
-                "species": "SPECIES_UNOWN"
+                "species": "SPECIES_KECLEON_BLUE"
               },
               {
                 "min_level": 4,
                 "max_level": 70,
-                "species": "SPECIES_UNOWN"
+                "species": "SPECIES_KECLEON_PURPLE"
               },
               {
                 "min_level": 4,
                 "max_level": 70,
-                "species": "SPECIES_UNOWN"
+                "species": "SPECIES_KECLEON_BLUE"
               },
               {
                 "min_level": 4,
                 "max_level": 70,
-                "species": "SPECIES_UNOWN"
+                "species": "SPECIES_KECLEON"
               },
               {
                 "min_level": 3,
                 "max_level": 60,
-                "species": "SPECIES_UNOWN"
+                "species": "SPECIES_KECLEON_PURPLE"
               }
             ]
           },

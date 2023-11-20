@@ -13015,5 +13015,14 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[NUM_SPECIES + 1] =
     [SPECIES_ENAMORUS_THERIAN] = sAnims_EnamorusTherian,
     [SPECIES_BASCULEGION_FEMALE] = sAnims_Basculegion,
 #endif
+	// Fakemon forms
+    [SPECIES_KECLEON_RED] = sAnims_Kecleon,
+	[SPECIES_KECLEON_BROWN] = sAnims_Kecleon,
+	[SPECIES_KECLEON_ORANGE] = sAnims_Kecleon,
+	[SPECIES_KECLEON_CYAN] = sAnims_Kecleon,
+	[SPECIES_KECLEON_BLUE] = sAnims_Kecleon,
+	[SPECIES_KECLEON_PURPLE] = sAnims_Kecleon,
+	// End fakemon forms
+	
     [SPECIES_EGG]         = sAnims_Egg,
 };

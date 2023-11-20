@@ -837,6 +837,28 @@
         .flags = SPECIES_FLAG_MYTHICAL,                 \
     }
 
+#define KECLEON_SPECIES_INFO(color)                                         \
+    {                                                                       \
+        .baseHP        = 60,                                                \
+        .baseAttack    = 90,                                                \
+        .baseDefense   = 70,                                                \
+        .baseSpeed     = 40,                                                \
+        .baseSpAttack  = 60,                                                \
+        .baseSpDefense = 120,                                               \
+        .types = { TYPE_NORMAL, TYPE_NORMAL},                               \
+        .catchRate = 200,                                                   \
+        .expYield = 154,                                                    \
+        .evYield_SpDefense = 1,                                             \
+        .genderRatio = PERCENT_FEMALE(50),                                  \
+        .eggCycles = 20,                                                    \
+        .friendship = STANDARD_FRIENDSHIP,                                  \
+        .growthRate = GROWTH_MEDIUM_SLOW,                                   \
+        .eggGroups = { EGG_GROUP_FIELD, EGG_GROUP_FIELD},                   \
+        .abilities = {ABILITY_COLOR_CHANGE, ABILITY_NONE, ABILITY_PROTEAN}, \
+        .bodyColor = color,                                                 \
+        .noFlip = FALSE,                                                    \
+    }
+
 const struct SpeciesInfo gSpeciesInfo[] =
 {
     [SPECIES_NONE] = {0},
@@ -8968,27 +8990,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_CASTFORM] = CASTFORM_SPECIES_INFO(TYPE_NORMAL, BODY_COLOR_GRAY),
 
-    [SPECIES_KECLEON] =
-    {
-        .baseHP        = 60,
-        .baseAttack    = 90,
-        .baseDefense   = 70,
-        .baseSpeed     = 40,
-        .baseSpAttack  = 60,
-        .baseSpDefense = 120,
-        .types = { TYPE_NORMAL, TYPE_NORMAL},
-        .catchRate = 200,
-        .expYield = 154,
-        .evYield_SpDefense = 1,
-        .genderRatio = PERCENT_FEMALE(50),
-        .eggCycles = 20,
-        .friendship = STANDARD_FRIENDSHIP,
-        .growthRate = GROWTH_MEDIUM_SLOW,
-        .eggGroups = { EGG_GROUP_FIELD, EGG_GROUP_FIELD},
-        .abilities = {ABILITY_COLOR_CHANGE, ABILITY_NONE, ABILITY_PROTEAN},
-        .bodyColor = BODY_COLOR_GREEN,
-        .noFlip = FALSE,
-    },
+    [SPECIES_KECLEON] = KECLEON_SPECIES_INFO(BODY_COLOR_GREEN),
 
     [SPECIES_SHUPPET] =
     {
@@ -24879,4 +24881,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .flags = SPECIES_FLAG_LEGENDARY,
     },
 #endif
+
+	// Fakemon forms
+	[SPECIES_KECLEON_RED]    = KECLEON_SPECIES_INFO(BODY_COLOR_RED),
+	[SPECIES_KECLEON_BROWN]    = KECLEON_SPECIES_INFO(BODY_COLOR_BROWN),
+	[SPECIES_KECLEON_ORANGE]    = KECLEON_SPECIES_INFO(BODY_COLOR_BROWN),
+	[SPECIES_KECLEON_CYAN]    = KECLEON_SPECIES_INFO(BODY_COLOR_BLUE),
+	[SPECIES_KECLEON_BLUE]    = KECLEON_SPECIES_INFO(BODY_COLOR_BLUE),
+	[SPECIES_KECLEON_PURPLE]    = KECLEON_SPECIES_INFO(BODY_COLOR_PURPLE),
+	
 };

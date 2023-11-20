@@ -1346,4 +1346,11 @@ const u16 *const gTeachableLearnsets[NUM_SPECIES] =
     [SPECIES_ENAMORUS_THERIAN] = sEnamorusTeachableLearnset,
     [SPECIES_BASCULEGION_FEMALE] = sBasculegionTeachableLearnset,
 #endif
+	// Fakemon forms
+	[SPECIES_KECLEON_RED] = sKecleonTeachableLearnset,
+	[SPECIES_KECLEON_BROWN] = sKecleonTeachableLearnset,
+	[SPECIES_KECLEON_ORANGE] = sKecleonTeachableLearnset,
+	[SPECIES_KECLEON_CYAN] = sKecleonTeachableLearnset,
+	[SPECIES_KECLEON_BLUE] = sKecleonTeachableLearnset,
+	[SPECIES_KECLEON_PURPLE] = sKecleonTeachableLearnset,
 };

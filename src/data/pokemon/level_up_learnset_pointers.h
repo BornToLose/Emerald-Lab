@@ -1343,5 +1343,13 @@ const struct LevelUpMove *const gLevelUpLearnsets[NUM_SPECIES] =
     // Enamorus
     [SPECIES_ENAMORUS_THERIAN] = sEnamorusLevelUpLearnset,
     [SPECIES_BASCULEGION_FEMALE] = sBasculegionLevelUpLearnset,
+	
+	//Fakemon forms
+	[SPECIES_KECLEON_RED] = sKecleonLevelUpLearnset,
+	[SPECIES_KECLEON_BROWN] = sKecleonLevelUpLearnset,
+	[SPECIES_KECLEON_ORANGE] = sKecleonLevelUpLearnset,
+	[SPECIES_KECLEON_CYAN] = sKecleonLevelUpLearnset,
+	[SPECIES_KECLEON_BLUE] = sKecleonLevelUpLearnset,
+	[SPECIES_KECLEON_PURPLE] = sKecleonLevelUpLearnset,
 #endif
 };

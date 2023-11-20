@@ -1343,6 +1343,15 @@ const struct CompressedSpriteSheet gMonFrontPicTable[NUM_SPECIES + 1] =
 
     SPECIES_SPRITE(BASCULEGION_FEMALE, gMonFrontPic_BasculegionFemale),
 #endif
+	// Fakemon forms
+	SPECIES_SPRITE(KECLEON_RED, gMonFrontPic_Kecleon),
+	SPECIES_SPRITE(KECLEON_BROWN, gMonFrontPic_Kecleon),
+	SPECIES_SPRITE(KECLEON_ORANGE, gMonFrontPic_Kecleon),
+	SPECIES_SPRITE(KECLEON_CYAN, gMonFrontPic_Kecleon),
+	SPECIES_SPRITE(KECLEON_BLUE, gMonFrontPic_Kecleon),
+	SPECIES_SPRITE(KECLEON_PURPLE, gMonFrontPic_Kecleon),
+	// End fakemon forms
+	
     SPECIES_SPRITE(EGG, gMonFrontPic_Egg),
 };
 

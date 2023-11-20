@@ -1350,6 +1350,15 @@ const struct MonCoords gMonFrontPicCoords[NUM_SPECIES + 1] =
     // Basculegion
     [SPECIES_BASCULEGION_FEMALE]           = { .size = MON_COORDS_SIZE(64, 64), .y_offset =  0 },
 #endif
+	// Fakemon forms
+	[SPECIES_KECLEON_RED]                  = { .size = MON_COORDS_SIZE(48, 56), .y_offset =  5 },
+	[SPECIES_KECLEON_BROWN]                = { .size = MON_COORDS_SIZE(48, 56), .y_offset =  5 },
+	[SPECIES_KECLEON_ORANGE]               = { .size = MON_COORDS_SIZE(48, 56), .y_offset =  5 },
+	[SPECIES_KECLEON_CYAN]                 = { .size = MON_COORDS_SIZE(48, 56), .y_offset =  5 },
+	[SPECIES_KECLEON_BLUE]                 = { .size = MON_COORDS_SIZE(48, 56), .y_offset =  5 },
+	[SPECIES_KECLEON_PURPLE]               = { .size = MON_COORDS_SIZE(48, 56), .y_offset =  5 },
+	// End fakemon forms
+
     // Egg
     [SPECIES_EGG]                          = { .size = MON_COORDS_SIZE(24, 24), .y_offset = 20 },
 

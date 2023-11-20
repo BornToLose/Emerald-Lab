@@ -1368,5 +1368,14 @@ const struct MonCoords gMonBackPicCoords[NUM_SPECIES + 1] =
     // Basculegion
     [SPECIES_BASCULEGION_FEMALE]           = { .size = MON_COORDS_SIZE(64, 64), .y_offset =  0 },
 #endif
+	// Fakemon forms
+	[SPECIES_KECLEON_RED]                  = { .size = MON_COORDS_SIZE(56, 56), .y_offset =  6 },
+	[SPECIES_KECLEON_BROWN]                = { .size = MON_COORDS_SIZE(56, 56), .y_offset =  6 },
+	[SPECIES_KECLEON_ORANGE]               = { .size = MON_COORDS_SIZE(56, 56), .y_offset =  6 },
+	[SPECIES_KECLEON_CYAN]                 = { .size = MON_COORDS_SIZE(56, 56), .y_offset =  6 },
+	[SPECIES_KECLEON_BLUE]                 = { .size = MON_COORDS_SIZE(56, 56), .y_offset =  6 },
+	[SPECIES_KECLEON_PURPLE]               = { .size = MON_COORDS_SIZE(56, 56), .y_offset =  6 },
+	// End fakemon forms
+
     [SPECIES_EGG]                          = { .size = MON_COORDS_SIZE(24, 24), .y_offset = 20 },
 };

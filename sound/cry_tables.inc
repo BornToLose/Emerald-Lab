@@ -2091,6 +2091,15 @@ gCryTable::
 	cry Cry_CalyrexShadowRider
 	@ Basculegion
 	cry Cry_Basculegion
+	// Fakemon
+	@ Kecleon
+	cry Cry_Kecleon
+	cry Cry_Kecleon
+	cry Cry_Kecleon
+	cry Cry_Kecleon
+	cry Cry_Kecleon
+	cry Cry_Kecleon
+	// End fakemon
 .else
 	@ Cramorant
 	cry Cry_Unown
@@ -4187,6 +4196,15 @@ gCryTable_Reverse::
 	cry_reverse Cry_CalyrexShadowRider
 	@ Basculegion
 	cry_reverse Cry_Basculegion
+	// Fakemon
+	@ Kecleon
+	cry_reverse Cry_Kecleon
+	cry_reverse Cry_Kecleon
+	cry_reverse Cry_Kecleon
+	cry_reverse Cry_Kecleon
+	cry_reverse Cry_Kecleon
+	cry_reverse Cry_Kecleon
+	// End fakemon
 .else
 	cry_reverse Cry_Unown
 	cry_reverse Cry_Unown
