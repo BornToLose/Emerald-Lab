@@ -37,7 +37,6 @@ extern const u32 gItemIconPalette_NihonIncense[];
 [ITEM_NIHON_INCENSE] =
 {
 	.name = _("Nihon Incnse"),
-	.itemId = ITEM_SEA_INCENSE,
 	.price = 2000,
 	.holdEffect = HOLD_EFFECT_PREVENT_EVOLVE,
 	.description = sNihonIncenseDesc,

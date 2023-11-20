@@ -9653,7 +9653,6 @@ const struct Item gItems[] =
 	[ITEM_NIHON_INCENSE] =
 	{
 		.name = _("Nihon Incnse"),
-		.itemId = ITEM_NIHON_INCENSE,
 		.price = 2000,
 		.holdEffect = HOLD_EFFECT_PREVENT_EVOLVE,
 		.description = sNihonIncenseDesc,
@@ -9666,7 +9665,6 @@ const struct Item gItems[] =
 	[ITEM_PRIME_STONE] =
 	{
 		.name = _("Prime Stone"),
-		.itemId = ITEM_PRIME_STONE,
 		.price = 3000,
 		.description = sPrimeStoneDesc,
 		.pocket = POCKET_ITEMS,

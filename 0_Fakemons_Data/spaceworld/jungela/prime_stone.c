@@ -34,7 +34,6 @@ extern const u32 gItemIconPalette_PrimeStone[];
 [ITEM_PRIME_STONE] =
 {
 	.name = _("Prime Stone"),
-	.itemId = ITEM_PRIME_STONE,
 	.price = 3000,
 	.description = sPrimeStoneDesc,
 	.pocket = POCKET_ITEMS,
