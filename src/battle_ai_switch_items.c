@@ -267,8 +267,8 @@ static bool8 ShouldSwitchIfGameStatePrompt(u32 battler)
         chanceReducer = 5; // Reduce switchout probability by factor of 5 if setup
 
     //Perish Song
-    if (gStatuses3[battler] & STATUS3_PERISH_SONG
-        && gDisableStructs[battler].perishSongTimer == 0
+    if (gStatuses3[gActiveBattler] & STATUS3_PERISH_SONG
+        && gDisableStructs[gActiveBattler].perishSongTimer == 0
         && monAbility != ABILITY_SOUNDPROOF && monAbility != ABILITY_CACOPHONY)
         switchMon = TRUE;
 

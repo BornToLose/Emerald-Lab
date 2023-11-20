@@ -154,62 +154,62 @@
               {
                 "min_level": 3,
                 "max_level": 60,
-                "species": "SPECIES_COTTONBUN"
+                "species": "SPECIES_UNOWN"
               },
               {
                 "min_level": 3,
                 "max_level": 60,
-                "species": "SPECIES_CHOCOBUN"
+                "species": "SPECIES_UNOWN"
               },
               {
                 "min_level": 4,
                 "max_level": 70,
-                "species": "SPECIES_COTTONBUN"
+                "species": "SPECIES_UNOWN"
               },
               {
                 "min_level": 4,
                 "max_level": 70,
-                "species": "SPECIES_CHOCOBUN"
+                "species": "SPECIES_UNOWN"
               },
               {
                 "min_level": 3,
                 "max_level": 60,
-                "species": "SPECIES_COTTONBUN"
+                "species": "SPECIES_UNOWN"
               },
               {
                 "min_level": 4,
                 "max_level": 70,
-                "species": "SPECIES_CHOCOBUN"
+                "species": "SPECIES_UNOWN"
               },
               {
                 "min_level": 3,
                 "max_level": 60,
-                "species": "SPECIES_COTTONBUN"
+                "species": "SPECIES_UNOWN"
               },
               {
                 "min_level": 3,
                 "max_level": 60,
-                "species": "SPECIES_CHOCOBUN"
+                "species": "SPECIES_UNOWN"
               },
               {
                 "min_level": 4,
                 "max_level": 70,
-                "species": "SPECIES_COTTONBUN"
+                "species": "SPECIES_UNOWN"
               },
               {
                 "min_level": 4,
                 "max_level": 70,
-                "species": "SPECIES_CHOCOBUN"
+                "species": "SPECIES_UNOWN"
               },
               {
                 "min_level": 4,
                 "max_level": 70,
-                "species": "SPECIES_COTTONBUN"
+                "species": "SPECIES_UNOWN"
               },
               {
                 "min_level": 3,
                 "max_level": 60,
-                "species": "SPECIES_CHOCOBUN"
+                "species": "SPECIES_UNOWN"
               }
             ]
           },
